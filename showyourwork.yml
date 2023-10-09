@@ -83,7 +83,14 @@ dependencies:
         - src/data/tess/hlsp_qlp_tess_ffi_s0008-0000000182582608_tess_v01_llc.fits
         - src/data/tess/hlsp_qlp_tess_ffi_s0035-0000000182582608_tess_v01_llc.fits
         - src/data/tess/hlsp_qlp_tess_ffi_s0034-0000000182582608_tess_v01_llc.fits
- 
+    src/scripts/plot_master_lightcurve_nature_with_zoom_3_panel.py:
+        - src/data/rvc_data/asassn.csv
+        - src/data/rvc_data/atlas_reduced.txt
+        - src/data/rvc_data/aavso.txt
+        - src/data/rvc_data/neowise.csv
+        - src/data/rvc_data/lcogt.fits
+        - src/data/obs_ASASSN.ecsv
+        - src/data/obs_AAVSO.ecsv
 
 
 # Name of the `.tex` manuscript and corresponding `.pdf` article
