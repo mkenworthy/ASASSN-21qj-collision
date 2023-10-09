@@ -3,6 +3,7 @@ dependencies:
   - conda-forge::pip
   - conda-forge::python=3.10
   - conda-forge::astropy
+  - conda-forge::scipy
   - pip:
       - matplotlib
       - graphviz
