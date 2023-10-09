@@ -8,11 +8,11 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 from matplotlib import gridspec
 from matplotlib.colors import LogNorm
-
+import paths
 
 #add Tex fonts if needed
-import sys
-import os
+#import sys
+#import os
 #if sys.platform== 'darwin':
 #    os.environ["PATH"] += os.pathsep + '/Library/TeX/texbin'
 
