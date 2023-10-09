@@ -3,21 +3,9 @@
 \documentclass[sn-nature]{sn-jnl}% Style for submissions to Nature Portfolio journals
 
 \usepackage{graphicx}%
-%\usepackage{multirow}%
 \usepackage{amsmath,amssymb,amsfonts}%
-%\usepackage{amsthm}%  
-%\usepackage{mathrsfs}%
-%\usepackage[title]{appendix}%
 \usepackage{xcolor}%
-%\usepackage{textcomp}%
 \usepackage{manyfoot}%
-%\usepackage{booktabs}%
-%\usepackage{algorithm}%
-%\usepackage{algorithmicx}%
-%\usepackage{algpseudocode}%
-%\usepackage{listings}%
-%%%%
-%MAK ADDED
 
 \usepackage{showyourwork}
 
@@ -25,7 +13,6 @@
 \newcommand*\arcsec{\ensuremath{^{\prime\prime}}}
 
 % for bibliography
-%\usepackage{natbib}
 \def\aap{Astron. \& Astrophys.}
 \def\aj{Astron. J.}
 \def\apj{Astrophys. J.}
@@ -759,14 +746,11 @@ Typically the radius derived under the assumption of blackbody emission is an un
 %
 Thus, we conclude that the dust location might in the most extreme case be as far as 1\,au, but not sufficiently far to explain the 900\,day delay between the WISE and optical flux variations. which requires a distance of at least 2\,au.
 
-
 \subsection*{Observations}\label{sec:obs}
 
 The beginning of the eclipse was announced \cite{RizzoSmith21} by the ASAS-SN survey, which triggered several observing campaigns at optical wavelengths and an ALMA observation at Band 7 (program \texttt{2019.A.00040.S}).
 %
 The photometric data and passband filters are listed in Extended Data Table~\ref{tab:photometry}.
-
-
 
 % ░█████╗░░██████╗░█████╗░░██████╗
 % ██╔══██╗██╔════╝██╔══██╗██╔════╝
@@ -774,9 +758,7 @@ The photometric data and passband filters are listed in Extended Data Table~\ref
 % ██╔══██║░╚═══██╗██╔══██║░╚═══██╗
 % ██║░░██║██████╔╝██║░░██║██████╔╝
 % ╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░
-%
-% 230 words
-%
+
 The All Sky Automated Survey \cite[ASAS; ][]{pojmanski_all_1997, asas_2005, asas_2018} is a survey consisting of two observing stations - one in Las Campanas, Chile and the other on Maui, Hawaii. 
 %
 Each observatory is equipped with two CCD cameras using V and I filters and commercial f $ = 200$ mm, D $= 100$ mm lenses, although both larger (D $=250$ mm) and smaller (50-72 mm) lenses were used at earlier times.
@@ -835,8 +817,6 @@ All data is automatically processed and calibrated by the BANZAI pipeline.
 %
 The visual companion caused complications in BANZAIs automatic aperture extraction routine; sometimes correct apertures were extracted for both \asas\ and the nearby star, and sometimes both sources were extracted in one large aperture, often with an offset from the true center of \asas.
 %
-%Although the companion is faint, this caused the resulting photometry to be in inaccurate and therefore unusable.
-%
 To correct this, the last two stages of the BANZAI routine, aperture extraction and photometry calibration, were modified for this specific situation. 
 %
 The calibrated magnitudes of all sources in the frames are computed using the default BANZAI photometry calibration routine.
@@ -887,10 +867,6 @@ The TESS satellite orbits the Earth every 13.7 days on a highly elliptical orbit
 It captures images at a 2 second (used for guiding), 20 seconds (for 1000 bright asteroseismology targets), 120 seconds (for 200 000 stars that are likely planet hosts) and 30 minute (full frame image) cadences.
 %
 The instrument consists of 4 CCDs each with a field of view of 24\degr$\times$24\degr, with a wide band-pass filter from 600-1000 nm (similar to the $I_C$ band) and provides high precision ($\approx$milli-mag) light curves for stars down to about 14\,mag ($I_C$).
-%
-
-% 150 words
-
 
 % ███╗░░██╗███████╗░█████╗░░██╗░░░░░░░██╗██╗░██████╗███████╗
 % ████╗░██║██╔════╝██╔══██╗░██║░░██╗░░██║██║██╔════╝██╔════╝
@@ -916,7 +892,6 @@ A single data point for each epoch and wavelength is calculated by taking the we
 % ██║░░██║███████╗██║░╚═╝░██║██║░░██║
 % ╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚═╝░░╚═╝
 
-
 The ALMA data from programme \texttt{2019.A.00040.S} were downloaded and processed through to a measurement set with CASA \cite{2007ASPC..376..127M}.
 %
 These observations were taken 2021 September 28 (MJD=59485) and used band 7, with a mean wavelength of 880\,$\mu$m.
@@ -934,7 +909,6 @@ In terms of the infrared excess visible in the mid-IR with WISE this upper limit
 In this section we consider the light curves; first the implications of the TESS data for the stellar age, and then the implications of the ground-based optical light curves for transverse velocity of the occulting material and dust grain sizes.
 
 \subsection*{Stellar rotation and age}
-
 
 TESS data from the Quick-Look Pipeline \cite{2020RNAAS...4..204H,2021RNAAS...5..234K} was retrieved from the MAST archive and is shown in Extended Data Fig. \ref{fig:TESS_lc}.
 %
@@ -954,12 +928,7 @@ We attribute this modulation due to star spots on the star rotating in and out o
 %
 Using this rotational period the gyrochronological age \cite{Bouma23,Kounkel22} is calculated to be $300\pm92$ Myr.
 
-
-% 180 words
-
-
 \subsubsection*{Duration of the eclipse and gradient analysis}
-
 
 Figure \ref{fig:eclipse_overview} shows the optical light curves. The start of the optical eclipse is seen around MJD 59350 in the $g'$ band observations, and returns to pre-eclipse levels by MJD 59850, giving a total eclipse duration of approximately 500 days. The eclipse depth varies as a function of wavelength, which is discussed below.
 %
@@ -977,13 +946,11 @@ A lower bound can be derived for the transverse velocity of the dust, $v$, by me
 %
 If the dust is on a circular orbit, it therefore has to be within 16\,au (equivalent to an orbital period of 63 years) around the star. The temperature of sub-micron dust grains at this distance would be approximately 200\,K.
 
-%\subsection*{Dust properties from the colors in the optical} MAX 40 characters
 \subsubsection*{Dust properties from optical colors}
 
 As is clear from Figure \ref{fig:eclipse_overview} the photometry shows deeper absorption at bluer wavelengths compared to redder wavelengths.
 %
 This wavelength dependent absorption is typical of extinction due to particles with a characteristic size similar to or smaller than that of the observed wavelengths.
-%This difference is an indication that the extinction is caused by particles equal to or smaller than the wavelengths of light.
 %
 The differences are quantified in Extended Data Figure \ref{fig:blueing}, which shows the AAVSO $BVI$ photometric colours as a function of $V$ magnitude.
 %
@@ -999,7 +966,11 @@ This behaviour is also seen in Extended Data Figure \ref{fig:blueing}, where $B-
 %
 The solid lines show an extinction model where an underlying scattered light component with the same colour as the star has been added; as the star dims it reddens, but will eventually return to the stellar colour.
 %
-This happens more quickly for $B-V$ because nearly all of the stellar flux in $B$ is blocked, and is less pronounced for $V-I$ because the star is significantly less dimmed in $I$. The fraction of scattered light is relatively large at 7.5\%, implying a significant complex of small dust around the star by the time the deepest parts of the optical transit occur. This high fraction suggests that the impact occurred a significant fraction of an orbit before the optical transit, thus allowing the dust complex time to spread around the star.
+This happens more quickly for $B-V$ because nearly all of the stellar flux in $B$ is blocked, and is less pronounced for $V-I$ because the star is significantly less dimmed in $I$.
+%
+The fraction of scattered light is relatively large at 7.5\%, implying a significant complex of small dust around the star by the time the deepest parts of the optical transit occur.
+%
+This high fraction suggests that the impact occurred a significant fraction of an orbit before the optical transit, thus allowing the dust complex time to spread around the star.
 
 \subsection*{Dust mass estimates}
 
@@ -1015,7 +986,8 @@ Changing the grain size to 1\,$\mu$m yields a similar dust spectrum; while the d
 %
 Thus, the mass in small grains detectable with ALMA is about 0.2\,$M_{\rm Earth}$.
 %
-The dust spectrum lies well below the WISE measurements, and just below the ALMA measurement. Even in this optimistic case, thermal emission from dust thrown off in the collision is therefore not necessarily easily detected.
+The dust spectrum lies well below the WISE measurements, and just below the ALMA measurement. %
+Even in this optimistic case, thermal emission from dust thrown off in the collision is therefore not necessarily easily detected.
 %
 This difference is one of surface area; at 600\,pc thousands of square au of 100\,K dust is needed for a thermal detection with ALMA, but only a small fraction of a square au is needed to significantly dim a star (which has radius $\sim$0.01\,au).
 
@@ -1035,7 +1007,9 @@ For example, one debris disk at 0.1~au passively heated to 1000\,K producing the
 %
 This explanation is unsatisfactory because both IR flux increases and dimming events are rare.
 %
-Mid-IR excesses are exceptionally rare among main-sequence stars \cite[1:10,000,][]{2013MNRAS.433.2334K}, and still uncommon for young stars \cite[1:100,][]{2013MNRAS.433.2334K}, and no star has previously shown a sizeable increase starting from no excess. A single case of a disappearing mid-IR excess has been seen, which remains largely unexplained \cite{2012Natur.487...74M}.
+Mid-IR excesses are exceptionally rare among main-sequence stars \cite[1:10,000,][]{2013MNRAS.433.2334K}, and still uncommon for young stars \cite[1:100,][]{2013MNRAS.433.2334K}, and no star has previously shown a sizeable increase starting from no excess.
+%
+A single case of a disappearing mid-IR excess has been seen, which remains largely unexplained \cite{2012Natur.487...74M}.
 %
 Similarly, optical dimming events are rare for main-sequence stars, for example only one was seen to undergo dust-related optical dimming with Kepler main mission, which observed 150,000 stars for four years \cite{2016MNRAS.457.3988B}.
 %
@@ -1119,11 +1093,11 @@ The time taken for a given region of the structure to cool to the point that a s
     t_{\rm cool} (r_{xy})=\frac{l f(r_{xy}) \Sigma(r_{xy})}{\sigma T^4_{\rm emit}}
 \end{equation}
 %
-where $f$ is the initial vapor fraction at that radius, $l$ is the latent heat of vaporization of the material (here we have taken the limiting case of pure water $l=2.256\times 10^6$ \cite{Chase1998}, but the addition of silicates could make the latent heat much larger), $\sigma$ is the Stefan–Boltzmann constant, and $T_{\rm emit}$ is the emission temperature. Figure~\ref{fig:Hill_Bondi_R} shows example evolutions of the emission from a post-impact body using this model for different parameters (solid lines). Results of a modified model where the initial surface density (by the addition of a constant parameter to Equation~\ref{eqn:sigma}) is forced to be zero at $R_{\rm emit}$ are shown as dashed lines.
-
-
-%TC:ignore
-
+where $f$ is the initial vapor fraction at that radius, $l$ is the latent heat of vaporization of the material (here we have taken the limiting case of pure water $l=2.256\times 10^6$ \cite{Chase1998}, but the addition of silicates could make the latent heat much larger), $\sigma$ is the Stefan–Boltzmann constant, and $T_{\rm emit}$ is the emission temperature.
+%
+Figure~\ref{fig:Hill_Bondi_R} shows example evolutions of the emission from a post-impact body using this model for different parameters (solid lines).
+%
+Results of a modified model where the initial surface density (by the addition of a constant parameter to Equation~\ref{eqn:sigma}) is forced to be zero at $R_{\rm emit}$ are shown as dashed lines.
 
 \clearpage
 
@@ -1620,9 +1594,6 @@ All the code for the analysis and the generation of all the figures  are availab
 %
 The source code and documentation for the SWIFT open-source simulation code is available from \url{www.swiftsim.com}.
 
-%\bmhead{Supplementary information}
-%Supplementary Information is available for this paper.
-
 \bmhead{Correspondence and requests for materials}
 should be addressed to M.A.K.
 
@@ -1793,7 +1764,9 @@ Property                               & Value                    \\
 
 \begin{table}
     \centering
-    \caption{Photometric observations of ASASSN-21qj. The number of points are listed per survey and filter. %
+    \caption{Photometric observations of ASASSN-21qj. 
+    %
+    The number of points are listed per survey and filter.
     %
     This is the count after initial rejection of photometric points with significantly large error bars.
     %
@@ -1829,8 +1802,6 @@ NEOWISE & $W1$ & 18 \\
 \label{tab:photometry}
 \end{table}
 
-\bibliography{bib}% common bib file
-
-
+\bibliography{bib}
 
 \end{document}
