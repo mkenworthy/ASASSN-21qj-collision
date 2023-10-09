@@ -79,7 +79,7 @@ dependencies:
         - src/data/rvc_data/lcogt.fits
         - src/data/obs_ASASSN.ecsv
         - src/data/obs_AAVSO.ecsv
-    src/scripts/plot_all_tess_epochs.py:
+    src/scripts/plot_all_tess_asas_ls_epochs.py:
         - src/data/tess/hlsp_qlp_tess_ffi_s0008-0000000182582608_tess_v01_llc.fits
         - src/data/tess/hlsp_qlp_tess_ffi_s0035-0000000182582608_tess_v01_llc.fits
         - src/data/tess/hlsp_qlp_tess_ffi_s0034-0000000182582608_tess_v01_llc.fits
