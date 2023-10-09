@@ -4,7 +4,7 @@ import scipy.constants as const
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
-import pylab
+#import pylab
 import matplotlib.cm as cm
 from matplotlib import gridspec
 from matplotlib.colors import LogNorm
