@@ -34,7 +34,11 @@ datasets:
       ASASSN-21qj_2013-2022.tbl: src/data/neowise/ASASSN-21qj_2013-2022.tbl
       job211831.txt: src/data/atlas/job211831.txt
       light_curve_410e0d3c-687e-40a3-b7cb-af0057695e0b.csv: src/data/asassn/light_curve_410e0d3c-687e-40a3-b7cb-af0057695e0b.csv
-
+      neowise_rvc.csv: src/data/rvc_data/neowise.csv
+      aavso_rvc.txt: src/data/rvc_data/aavso.txt
+      asassn_rvc.csv: src/data/rvc_data/asassn.csv
+      atlas_reduced_rvc.txt: src/data/rvc_data/atlas_reduced.txt
+      lcogt_rvc.fits: src/data/rvc_data/lcogt.fits
 
 # Custom file dependencies
 dependencies:
@@ -66,6 +70,11 @@ dependencies:
         - src/data/aavso/aavsodata_63e2220f49f39.txt
     src/scripts/neowise_coltemp.py:
         - src/data/obs_NEOWISE.ecsv
+    src/scripts/plot_master_lightcurve_nature_simple.py:
+        - src/data/rvc_data/asassn.csv
+        - src/data/rvc_data/atlas_reduced.txt
+        - src/data/rvc_data/aavso.txt
+
 
 # Name of the `.tex` manuscript and corresponding `.pdf` article
 ms_name: ms
