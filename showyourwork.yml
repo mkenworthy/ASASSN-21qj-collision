@@ -75,6 +75,8 @@ dependencies:
         - src/data/rvc_data/atlas_reduced.txt
         - src/data/rvc_data/aavso.txt
         - src/data/rvc_data/neowise.csv
+        - src/data/rvc_data/lcogt.fits
+
 
 
 # Name of the `.tex` manuscript and corresponding `.pdf` article
