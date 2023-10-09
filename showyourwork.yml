@@ -44,6 +44,12 @@ dependencies:
   #   - src/tex/stylesheet.tex
     src/scripts/blueing.py:
         - src/data/aavso/aavsodata_63e2220f49f39.txt
+    src/scripts/plot_all_phot_nature_delta_flux.py:
+        - src/data/obs_ATLAS.ecsv
+        - src/data/obs_ASASSN.ecsv
+        - src/data/obs_NEOWISE.ecsv
+        - src/data/obs_AAVSO.ecsv
+        - src/data/NEOWISE_coltemp.ecsv
     src/scripts/plot_all_photometry.py:
         - src/data/obs_ATLAS.ecsv
         - src/data/obs_ASASSN.ecsv
@@ -58,6 +64,8 @@ dependencies:
         - src/data/neowise/ASASSN-21qj_2013-2022.tbl
     src/scripts/convert_aavso.py:
         - src/data/aavso/aavsodata_63e2220f49f39.txt
+    src/scripts/neowise_coltemp.py:
+        - src/data/obs_NEOWISE.ecsv
 
 # Name of the `.tex` manuscript and corresponding `.pdf` article
 ms_name: ms
