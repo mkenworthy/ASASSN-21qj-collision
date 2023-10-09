@@ -28,6 +28,14 @@ datasets:
   # 10.5281/zenodo.6468327:
   #   contents:
   #     TOI640b.json: src/data/TOI640b.json
+  10.5072/zenodo.1180221:
+    contents:
+      aavsodata_63e2220f49f39.txt: src/data/aavso/aavsodata_63e2220f49f39.txt
+      ASASSN-21qj_2013-2022.tbl: src/data/neowise/ASASSN-21qj_2013-2022.tbl
+      job211831.txt: src/data/atlas/job211831.txt
+#      light_curve_90d764ef-d23b-4963-92ec-018de84553fa.csv: src/data/asassn/light_curve_90d764ef-d23b-4963-92ec-018de84553fa.csv
+      light_curve_410e0d3c-687e-40a3-b7cb-af0057695e0b.csv: src/data/asassn/light_curve_410e0d3c-687e-40a3-b7cb-af0057695e0b.csv
+
 
 # Custom file dependencies
 dependencies:
@@ -35,6 +43,22 @@ dependencies:
   #   - src/data/dataset_for_my_script.dat
   # src/tex/ms.tex:
   #   - src/tex/stylesheet.tex
+    src/scripts/blueing.py:
+        - src/data/aavso/aavsodata_63e2220f49f39.txt
+    src/scripts/plot_all_photometry.py:
+        - src/data/obs_ATLAS.ecsv
+        - src/data/obs_ASASSN.ecsv
+        - src/data/obs_NEOWISE.ecsv
+        - src/data/obs_AAVSO.ecsv
+        - src/data/NEOWISE_coltemp.ecsv
+    src/scripts/convert_atlas.py:
+        - src/data/atlas/job211831.txt
+    src/scripts/convert_asassn.py:
+        - src/data/asassn/light_curve_410e0d3c-687e-40a3-b7cb-af0057695e0b.csv
+    src/scripts/convert_neowise.py:
+        - src/data/neowise/ASASSN-21qj_2013-2022.tbl
+    src/scripts/convert_aavso.py:
+        - src/data/aavso/aavsodata_63e2220f49f39.txt
 
 # Name of the `.tex` manuscript and corresponding `.pdf` article
 ms_name: ms
