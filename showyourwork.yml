@@ -74,6 +74,8 @@ dependencies:
         - src/data/rvc_data/aavso.txt
         - src/data/rvc_data/neowise.csv
         - src/data/rvc_data/lcogt.fits
+        - src/data/obs_ASASSN.ecsv
+        - src/data/obs_AAVSO.ecsv
 
 
 
