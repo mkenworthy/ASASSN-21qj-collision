@@ -937,7 +937,7 @@ tavI = tav[tav['Filter']=='I']
 offset = 0.6
 
 # read in turning points
-inf = 'turning_points_g2.txt'
+inf = paths.scripts / 'turning_points_g2.txt'
 
 t = Table.read(inf,format='ascii.no_header')
 xc=t['col1']
