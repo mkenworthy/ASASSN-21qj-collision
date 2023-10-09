@@ -33,7 +33,6 @@ datasets:
       aavsodata_63e2220f49f39.txt: src/data/aavso/aavsodata_63e2220f49f39.txt
       ASASSN-21qj_2013-2022.tbl: src/data/neowise/ASASSN-21qj_2013-2022.tbl
       job211831.txt: src/data/atlas/job211831.txt
-#      light_curve_90d764ef-d23b-4963-92ec-018de84553fa.csv: src/data/asassn/light_curve_90d764ef-d23b-4963-92ec-018de84553fa.csv
       light_curve_410e0d3c-687e-40a3-b7cb-af0057695e0b.csv: src/data/asassn/light_curve_410e0d3c-687e-40a3-b7cb-af0057695e0b.csv
 
 
