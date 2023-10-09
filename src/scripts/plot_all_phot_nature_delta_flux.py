@@ -131,5 +131,5 @@ plt.tight_layout()
 plt.savefig(paths.figures / 'all_phot_nature_delta_flux.pdf',
     dpi=400)
 
-plt.draw()
-plt.show()
+#plt.draw()
+#plt.show()
