@@ -226,5 +226,5 @@ ax[2].text(0.05, 0.05, r"C", horizontalalignment='left',verticalalignment='botto
 fig.tight_layout()
 pout = 'Size_cooling_combined_figure.pdf'
 print(f'Writing plot to {pout}')
-plt.savefig(pout)
+plt.savefig(paths.figures / pout)
 #plt.show()
