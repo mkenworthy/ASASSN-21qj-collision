@@ -25,10 +25,8 @@ dag:
 
 # Externally-hosted datasets, e.g. on Zenodo
 datasets:
-  # 10.5281/zenodo.6468327:
-  #   contents:
-  #     TOI640b.json: src/data/TOI640b.json
-  10.5072/zenodo.1180221:
+#  10.5072/zenodo.1180221: old but works!
+  10.5281/zenodo.8344755:
     contents:
       aavsodata_63e2220f49f39.txt: src/data/aavso/aavsodata_63e2220f49f39.txt
       ASASSN-21qj_2013-2022.tbl: src/data/neowise/ASASSN-21qj_2013-2022.tbl
