@@ -23,4 +23,4 @@ This is an open source scientific article created using the [showyourwork](https
     cd ASASSN-21qj-collision
     showyourwork build
 
-More information on installing and building the paper can be found on the [showyourwork](https://github.com/showyourwork/showyourwork) website.
+More information on installing and building the paper can be found on the [documentation for showyourwork](https://show-your.work/en/latest/) website.
