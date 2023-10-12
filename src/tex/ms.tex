@@ -5,7 +5,7 @@
 
 \usepackage{graphicx}%
 \usepackage{amsmath,amssymb}%
-%\usepackage{xcolor}% % already required in cls
+\usepackage{xcolor}% % already required in cls
 \usepackage{manyfoot}%
 
 \usepackage{showyourwork}
@@ -55,6 +55,7 @@
 \newcommand{\rsun}{$R_\odot$}
 
 \begin{document}
+
 
 \title[Planetary collision]{A planetary collision afterglow and transit of the resultant debris cloud}
 
@@ -135,7 +136,7 @@
 
 \affil[13]{\orgdiv{School of Physics and Astronomy}, \orgname{Cardiff University}, \orgaddress{\street{The Parade}, \city{Cardiff}, \postcode{CF24 3AA}, \country{UK}}}
 
-\affil[14]{\orgdiv{School of Physics, H H Wills Physics Laboratory}, \orgname{University of Bristol}, \orgaddress{\street{Tyndall Avenue}, \city{Bristol}, \postcode{BS8 1TL}, \country{UK}}}
+\affil[14]{\orgdiv{School of Physics, H H Wills Physics Laboratory}, \orgname{University of Bristol}, \orgaddress{\street{Tyndall Avenue}, \city{Bristol}, \postcode{BS8 1TL}, \country{USA}}}
 
 \affil[15]{\orgdiv{Institute of Astronomy}, \orgname{University of Cambridge}, \orgaddress{\street{Madingley Road}, \city{Cambridge }, \postcode{CB3 0HA}, \country{UK}}}
 
@@ -149,6 +150,12 @@
 
 
 
+
+
+%%==================================%%
+%% sample for unstructured abstract %%
+%%==================================%%
+
 \abstract{
 Planets grow in rotating disks of dust and gas around forming stars, some of which can subsequently collide in giant impacts after the gas component is removed from the disk \cite{Williams11,Wyatt15,Hughes18}.
 %
@@ -156,7 +163,7 @@ Monitoring programs with the warm Spitzer mission have recorded significant and 
 %
 %However, observational constraints on the aftermath and frequency of such impacts are difficult to obtain.
 %
-Here we report combined observations of the young ($\sim$~300~Myr), solar-like star \asas{}: an infrared brightening consistent with a blackbody temperature of 1000 K and a luminosity that is 4\% that of the star lasting for about 1000\,days, partially overlapping in time with a complex and deep wavelength-dependent optical eclipse that lasted for about 500 days.
+Here we report combined observations of the young ($\sim$~300~Myr), solar-like star \asas{}: an infrared brightening consistent with a blackbody temperature of 1000 K and a luminosity of 4\% of that of the star lasting for about 1000\,days, partially overlapping in time with a complex and deep wavelength-dependent optical eclipse that lasted for about 500 days.
 %
 The optical eclipse started 2.5\,years after the infrared brightening, implying an orbital period of at least that duration.
 %
@@ -166,6 +173,7 @@ Such an impact produces a hot, highly-extended post-impact remnant with sufficie
 %
 Transit of the impact debris, sheared by orbital motion into a long cloud, causes the subsequent complex eclipse of the host star.
 }
+
 
 
 \keywords{exoplanets, planet formation, debris disks}
@@ -193,19 +201,19 @@ Transit of the impact debris, sheared by orbital motion into a long cloud, cause
 % ▀█▀ █░█ █▀▀   █▀▀ █░█ █▀▀ █▄░█ ▀█▀
 % ░█░ █▀█ ██▄   ██▄ ▀▄▀ ██▄ █░▀█ ░█░
 
-The otherwise unremarkable star 2MASS J08152329-3859234 underwent a sudden optical dimming event in December 2021 \cite{RizzoSmith21,RizzoSmith22} and was assigned the identifier \asas{} by the \gls{asassn} \citep{shappee_man_2014,kochanek_all-sky_2017}.
+The otherwise unremarkable star 2MASS J08152329-3859234 underwent a sudden optical dimming event in December 2021 \cite{RizzoSmith21,RizzoSmith22} and was assigned the identifier \asas{} by the ASAS-SN survey \citep{shappee_man_2014,kochanek_all-sky_2017}.
 %
-Here, we combine both optical (from the \gls{lcogt}) and infrared (from the \gls{wise} satellite) observations of \asas~for the years before and after this dimming event (Figure~\ref{fig:wisephot}). 
+Here, we combine both optical (from the Las Cumbres Observatory Global Telescope, LCOGT) and infrared (from the WISE satellite) observations of \asas~for the years before and after this dimming event (Figure~\ref{fig:wisephot}). 
 %
 Optical multiband photometry shows a wavelength dependent depth consistent with extinction by sub-micron particles.
 %
-About 900 days prior to the optical dimming event, the \asas~system showed a notable brightening in the infrared, of 0.4 magnitudes at 3.8 microns ($W1$) and 0.8 magnitudes at 4.5 microns ($W2$).
+About 900 days prior to the optical dimming event, the \asas~system showed a significant brightening in the infrared, of 0.4 magnitudes at 3.8 microns ($W1$) and 0.8 magnitudes at 4.5 microns ($W2$).
 %
-Before this time the infrared brightness was consistent with being purely stellar.
+Before this time the IR brightness was consistent with being purely stellar.
 %
-The increased infrared fluxes indicate that in addition to the quiescent stellar flux, there was new emission at a temperature of approximately 1000\,K.
+The increased IR fluxes indicate that in addition to the quiescent stellar flux, there was new emission at a temperature of approximately 1000\,K.
 %
-Such a notable combination of observations, particularly the 2.5\,year delay between the infrared and optical variation, requires an explanation.
+Such a remarkable combination of observations, particularly the 2.5\,year delay between the IR and optical variation, requires an explanation.
 
 
 \begin{figure}
@@ -232,6 +240,7 @@ Error bars are shown at $1\sigma$ confidence.
 
 
 
+
 % █ █▀█   █▀▄ █░█ █▀ ▀█▀   █░░ █▀█ █▀▀ ▄▀█ ▀█▀ █ █▀█ █▄░█
 % █ █▀▄   █▄▀ █▄█ ▄█ ░█░   █▄▄ █▄█ █▄▄ █▀█ ░█░ █ █▄█ █░▀█
 
@@ -240,12 +249,56 @@ Error bars are shown at $1\sigma$ confidence.
 
 The optical and infrared light curves (Figure \ref{fig:wisephot}) provide key constraints on any proposed scenario.
 %
-The post-brightening infrared fluxes in the $W1$ and $W2$ \gls{wise} passbands are consistent with emission at a blackbody temperature of $1000 \pm 100$\,K and this temperature is sustained, within error, for the remainder of our observation window, despite a decline in the total flux.
+The post-brightening IR fluxes in the $W1$ and $W2$ WISE passbands are consistent with emission at a blackbody temperature of $1000 \pm 100$\,K and this temperature is sustained, within error, for the remainder of our observation window, despite a decline in the total flux.
 %
 For an emitter located at the distance of ASASSN-21qj from Earth, and the observed  maximum luminosity of approximately 0.04\,$L_\star$, this implies an emitting area of 0.01\,au$^2$, equivalent to an object with a radius of 7\,$R_\odot$, or $750$\,$R_{\rm Earth}$.
 %
-If this emission was from material -- such as dust -- passively heated by proximity to the star, then that material must have been generated and remained within about 0.1\,au to produce the observed temperature.
+If this emission was from material -- e.g., dust -- passively heated by proximity to the star, then that material must have been generated and remained within about 0.1\,au to produce the observed temperature.
 
+% █▀█ █░░ ▄▀█ █▄░█ █▀▀ ▀█▀   █▀▀ █▀█ █░░ █░░ █ █▀ █ █▀█ █▄░█
+% █▀▀ █▄▄ █▀█ █░▀█ ██▄ ░█░   █▄▄ █▄█ █▄▄ █▄▄ █ ▄█ █ █▄█ █░▀█
+
+One possible explanation is that we are observing two unrelated but coincidental phenomena: a warm dust generating collision within 0.1 au of the star, with a separate object transiting the star 900 days later.
+%
+Two events that are themselves very rare occurring independently in one system is, however, highly improbable.
+%
+A second explanation is that warm dust is generated close to the star and causes the optical transit, but this requires a fine-tuned configuration where the star is optically blocked by scale height variations in the resulting disk.
+
+Instead, we hypothesize that are we are observing the aftermath of a single collision between super-Earths or mini Neptunes -- a so-called giant impact -- between 2 and 16\,au from the star. 
+%
+These distances are determined, respectively, by the delay between the IR brightening and the optical eclipse (Fig. \ref{fig:wisephot}), and by gradients in the optical light curve (Fig. \ref{fig:eclipse_overview}).
+%
+In contrast to other extreme debris disk events where the star heats the dust, we propose that the infrared emission is directly from the post-impact body \cite{Lock2017,2009ApJ...704..770M}, and that impact debris produced the optical transit.
+%
+Giant impacts are a common occurrence in planet formation \cite{Schlichting2018a,DAngelo2018} and also occur during instabilities in older systems \cite{Kaib2016}; this would explain the observations with a single event of a type that are expected for systems with ages like \asas{}.
+
+Giant impacts are one of the most energetic events planets experience.
+%
+For example, the kinetic energy of impacts between two half-Neptune-mass bodies range from $10^{33}$ to $10^{34}$~J, enough to vaporize the colliding bodies several times over.
+%
+A large fraction of this energy is dissipated in the colliding bodies and post-impact bodies are substantially melted and vaporized \cite{Nakajima2015,Lock2017,Carter2020}.
+%
+Furthermore, extreme torques exerted in impacts often produce rapidly rotating bodies \cite{Lock2017}.
+%
+Such low density and rotationally-flattened bodies can be hundreds of times larger than the pre-impact planets \cite{Lock2017} with correspondingly large radiative surfaces.
+
+% 205 words
+
+Giant impacts produce significant amounts of debris, typically around 1\% of the colliding mass, that is injected into orbit around the host star\cite{Canup2001,Lock18}.
+%
+Impact ejecta has a wide range of sizes, from sub-micron dust to planetesimals of tens to hundreds of kilometers, and often contains the most highly heated material \cite{Benz2008_Mercury_book,Leinhardt2015,Carter2020a}.
+%
+For sufficiently high impact velocities ($>1$~km~s$^{-1}$ for water ice, and $>8$~km~s$^{-1}$ for forsterite) a substantial fraction of this material is vaporised \cite{Stewart2008,Davies2020,Carter2020a}.
+%
+Shearing of droplets and cooling and condensation of vapor produces a population of small dust grains and solid spherules.
+%
+The size distribution of this fraction of the debris is uncertain, due to difficulties in modelling condensate nucleation and breakup, but previous work suggests that debris could range in size from sub-micron to decimeters \cite{Benz2008_Mercury_book,Johnson2015}.
+%
+The wavelength-dependent eclipse suggests that the optical depth of the transiting dust cloud is dominated by sub-micron grains, consistent with these previous estimates.
+%
+While the fading of the excess infrared flux occurs within 100 days of the start of the optical transit, we consider the timing to be coincidental because there is no clear correspondence between the light curves, for example no  change in the (six month cadence) IR flux when the star dims in the optical wavelengths just before MJD 59500.
+
+% 200 words
 
 \begin{figure*}
 \begin{centering}
@@ -267,33 +320,31 @@ If this emission was from material -- such as dust -- passively heated by proxim
 
 
 
+% █▀█ █▀▀ █▀▄▀█ █▄░█ ▄▀█ █▄░█ ▀█▀   █▀ █ ▀█ █▀▀
+% █▀▄ ██▄ █░▀░█ █░▀█ █▀█ █░▀█ ░█░   ▄█ █ █▄ ██▄
 
-% █▀█ █░░ ▄▀█ █▄░█ █▀▀ ▀█▀   █▀▀ █▀█ █░░ █░░ █ █▀ █ █▀█ █▄░█
-% █▀▀ █▄▄ █▀█ █░▀█ ██▄ ░█░   █▄▄ █▄█ █▄▄ █▄▄ █ ▄█ █ █▄█ █░▀█
+The radiative flux from post-impact bodies has not been explored in depth.
+%
+Computational resource limitations make resolving the low-density outer regions and photosphere of post-impact bodies extremely challenging.
+%
+However, preliminary simulations of impacts between super-Earth and mini-Neptunes place an approximate lower limit on the extent of post-impact bodies and show that post-impact bodies can extend to hundreds of Earth radii.
+%
+Such an object radiating at $\sim$1000~K would produce a flux comparable to the 0.04~$L_*$ inferred from our observations. 
 
-One possible explanation is that we are observing two unrelated but coincidental phenomena: a warm dust generating collision within 0.1 au of the star, with a separate object transiting the star 900 days later.
+Independent of impact simulations, there are fundamental limits on the size of post-impact bodies from the Hill and Bondi radii.
 %
-Two events that are themselves very rare occurring independently in one system is, however, highly improbable.
+Any post-impact structure must lie within the Hill sphere, the distance within which the gravity of an object dominates over that of the star.
 %
-A second explanation is that warm dust is generated close to the star and causes the optical transit, but this requires a fine-tuned configuration where the star is optically blocked by scale height variations in the resulting disk.
+Furthermore, only vapor within the Bondi radius would be bound to the post-impact body.
+%
+Figure~\ref{fig:Hill_Bondi_R}A shows the Hill radii at different distances from ASASSN-21qj (solid lines) and the Bondi radius for example gas species (dotted lines).
+%
+Beyond 2.4\,au, the Hill radii of greater than Earth-mass bodies are large enough to accommodate a post-impact body capable of producing the required IR flux ($\sim7R_*$, dotted line). 
+%
+Heavier gases (H$_2$O, SiO, and SiO$_2$) are also bound to bodies of more than a few Earth masses.
+%
+A post-impact body of a few Earth masses can hence theoretically produce the observed IR emission, with a photosphere that is dust and/or vapor.
 
-Instead, we suggest that we are observing the aftermath of a single collision between super-Earths or mini Neptunes -- a so-called giant impact -- between 2 and 16\,au from the star. 
-%
-These distances are determined, respectively, by the delay between the infrared brightening and the optical eclipse (Figure \ref{fig:wisephot}), and by gradients in the optical light curve (Figure \ref{fig:eclipse_overview}).
-%
-In contrast to other extreme debris disk events where the star heats the dust, we propose that the infrared emission is directly from the post-impact body \cite{Lock2017,2009ApJ...704..770M}, and that impact debris produced the optical transit.
-%
-Giant impacts are a common occurrence in planet formation \cite{Schlichting2018a,DAngelo2018} and also occur during instabilities in older systems \cite{Kaib2016}; this would explain the observations with a single event of a type that are expected for systems with ages like \asas{}.
-
-Giant impacts are one of the most energetic events planets experience.
-%
-For example, the kinetic energy of impacts between two half-Neptune-mass bodies range from $10^{33}$ to $10^{34}$~J, enough to vaporize the colliding bodies several times over.
-%
-A large fraction of this energy is dissipated in the colliding bodies and post-impact bodies are substantially melted and vaporized \cite{Nakajima2015,Lock2017,Carter2020}.
-%
-Furthermore, extreme torques exerted in impacts often produce rapidly rotating bodies \cite{Lock2017}.
-%
-Such low density and rotationally-flattened bodies can be hundreds of times larger than the pre-impact planets \cite{Lock2017} with correspondingly large radiative surfaces.
 
 
 
@@ -322,47 +373,6 @@ When not stated, the mass of the post-impact body was 50~$M_{\rm Earth}$, the po
 \end{centering}
 \end{figure}
 
-Giant impacts produce substantial amounts of debris, typically around 1\% of the colliding mass, that is injected into orbit around the host star\cite{Canup2001,Lock18}.
-%
-Impact ejecta have a wide range of sizes, from sub-micron dust to planetesimals of tens to hundreds of kilometers, and often contain the most highly heated material \cite{Benz2008_Mercury_book,Leinhardt2015,Carter2020a}.
-%
-For sufficiently high impact velocities ($>1$~km~s$^{-1}$ for water ice, and $>8$~km~s$^{-1}$ for forsterite) a substantial fraction of this material is vaporised \cite{Stewart2008,Davies2020,Carter2020a}.
-%
-Shearing of droplets and cooling and condensation of vapor produces a population of small dust grains and solid spherules.
-%
-The size distribution of this fraction of the debris is uncertain, owing to difficulties in modelling condensate nucleation and breakup, but previous work suggests that debris could range in size from sub-micron to decimeters \cite{Benz2008_Mercury_book,Johnson2015}.
-%
-The wavelength-dependent eclipse suggests that the optical depth of the transiting dust cloud is dominated by sub-micron grains, consistent with these previous estimates.
-%
-Although the fading of the excess infrared flux occurs within 100 days of the start of the optical transit, we consider the timing to be coincidental because there is no clear correspondence between the light curves, for example no  change in the (six month cadence) infrared flux when the star dims in the optical wavelengths just before MJD 59500.
-
-% 200 words
-
-
-% █▀█ █▀▀ █▀▄▀█ █▄░█ ▄▀█ █▄░█ ▀█▀   █▀ █ ▀█ █▀▀
-% █▀▄ ██▄ █░▀░█ █░▀█ █▀█ █░▀█ ░█░   ▄█ █ █▄ ██▄
-
-The radiative flux from post-impact bodies has not been explored in depth.
-%
-Computational resource limitations make resolving the low-density outer regions and photosphere of post-impact bodies extremely challenging.
-%
-However, preliminary simulations of impacts between super-Earth and mini-Neptunes place an approximate lower limit on the extent of post-impact bodies and show that post-impact bodies can extend to hundreds of Earth radii.
-%
-Such an object radiating at about 1000~K would produce a flux comparable with the 0.04~$L_\star$ inferred from our observations. 
-
-Independent of impact simulations, there are fundamental limits on the size of post-impact bodies from the Hill and Bondi radii.
-%
-Any post-impact structure must lie within the Hill sphere, the distance within which the gravity of an object dominates over that of the star.
-%
-Furthermore, only vapor within the Bondi radius would be bound to the post-impact body.
-%
-Figure~\ref{fig:Hill_Bondi_R}a shows the Hill radii at different distances from ASASSN-21qj (solid lines) and the Bondi radii for example gas species (dotted lines).
-%
-Beyond 2.4\,au, the Hill radii of greater than Earth-mass bodies are large enough to accommodate a post-impact body capable of producing the required infrared flux (approximately $7R_\star$, dotted line). 
-%
-Heavier gases (H$_2$O, SiO, and SiO$_2$) are also bound to bodies of more than a few Earth masses.
-%
-A post-impact body of a few Earth masses can hence theoretically produce the observed infrared emission, with a photosphere that is dust and/or vapor.
 
 
 % █░█░█ ▄▀█ ▀█▀ █▀▀ █▀█   ▄▀█ █▀   █▀▀ █▀█ █▀█ █░░ ▄▀█ █▄░█ ▀█▀
@@ -374,24 +384,24 @@ It is argued \cite{Lock18} that rocky post-impact bodies become optically thin a
 %
 The emission temperature is then set by the liquid-vapor phase boundary and is constant until the post-impact body almost fully condenses \cite{Lock18,Caracas2023}.
 %
-The dew point (onset of condensation) and bubble point (onset of substantial vaporization) of material with bulk silicate Earth composition are similar (about 2300 K, within roughly 100 K \cite[][]{Lock18,Fegley2023_BSE_cond}) at the low pressures of the photosphere of a post-impact body.
+The dew point (onset of condensation) and bubble point (onset of substantial vaporization) of material with bulk silicate Earth composition are similar \cite[$\sim2300$~K, within $\sim 100$~K;][]{Lock18,Fegley2023_BSE_cond} at the low pressures of the photosphere of a post-impact body.
 %
-However, even small amounts of water (10$^{-3}$ mole fraction) may lower the bubble and dew points for silicates by approximately 100~K \cite[][]{Fegley2023_BSE_cond,Lock18}. 
+However, even small amounts of water (10$^{-3}$ mole fraction) may lower the bubble and dew points for silicates by $\sim$100~K \cite[][]{Fegley2023_BSE_cond,Lock18}. 
 %
-The emission temperature of bodies produced by collisions of proto-planets composed of rock and ices/volatiles could be buffered at about 1000~K during early evolution.
+The emission temperature of bodies produced by collisions of proto-planets composed of rock and ices/volatiles could be buffered at $\sim$1000~K during early evolution.
 
 % 284 words
 
 % ▀█▀ █ █▀▄▀█ █▀▀   █▀▄ █▀▀ █▀▀ ▄▀█ █▄█
 % ░█░ █ █░▀░█ ██▄   █▄▀ ██▄ █▄▄ █▀█ ░█░
 
-The temporal variation of flux from a post-impact body is controlled by evolution of the bodies' size which is governed by a number of competing factors \cite{Lock18,Lock2020}, including radiative energy loss, viscous spreading, and mass and angular momentum transfer by condensates.
+The temporal variation of flux from a post-impact body is controlled by evolution of the bodies' size which is governed by a number of competing factors \cite{Lock2018moon,Lock2020}, including radiative energy loss, viscous spreading, and mass and angular momentum transfer by condensates.
 %
-For silicate-dominated post-impact bodies, the high emission temperature means that radiative cooling dominates, and the post-impact body contracts rapidly, fully condensing over years to thousands of years \cite{Lock18,Lock2020}.
+For silicate-dominated post-impact bodies, the high emission temperature means that radiative cooling dominates, and the post-impact body contracts rapidly, fully condensing over years to thousands of years \cite{Lock2018moon,Lock2020}.
 %
-The body we observed has a much lower emission temperature, and contracted much more slowly.
+The body we observed has a much lower emission temperature, and contracted substantially more slowly.
 %
-Figure~\ref{fig:Hill_Bondi_R}b,c shows the evolution of conceptual post-impact bodies in the limiting case that radiative cooling dominates.
+Figure~\ref{fig:Hill_Bondi_R}~B and C show evolution of conceptual post-impact bodies in the limiting case that radiative cooling dominates.
 %
 If sufficient mass is injected into the outer regions (i.e., less negative power law exponents) the observed flux can remain constant for an initial period and then decays over the order of hundreds of days, in agreement with infrared observations.
 %
@@ -399,315 +409,9 @@ Further work is required to understand the structure and evolution of bodies pro
 
 \clearpage
 
-
-
-
-
-% \begin{thebibliography}{10}
-% \expandafter\ifx\csname url\endcsname\relax
-%   \def\url#1{\burl{#1}}\fi
-% \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-% \providecommand{\bibinfo}[2]{#2}
-% \providecommand{\eprint}[2][]{\url{#2}}
-% \providecommand{\doi}[1]{\url{https://doi.org/#1}}
-% \bibcommenthead
-
-% \bibitem{Williams11}
-% \bibinfo{author}{{Williams}, J.~P.} \& \bibinfo{author}{{Cieza}, L.~A.}
-% \newblock \bibinfo{title}{{Protoplanetary Disks and Their Evolution}}.
-% \newblock \emph{\bibinfo{journal}{\araa}} \textbf{\bibinfo{volume}{49}},
-%   \bibinfo{pages}{67--117} (\bibinfo{year}{2011}).
-% \newblock \urlprefix\url{http://adsabs.harvard.edu/abs/2011ARA%26A..49...67W}.
-
-% \bibitem{Wyatt15}
-% \bibinfo{author}{{Wyatt}, M.~C.}, \bibinfo{author}{{Pani{\'c}}, O.},
-%   \bibinfo{author}{{Kennedy}, G.~M.} \& \bibinfo{author}{{Matr{\`a}}, L.}
-% \newblock \bibinfo{title}{{Five steps in the evolution from protoplanetary to
-%   debris disk}}.
-% \newblock \emph{\bibinfo{journal}{\apss}} \textbf{\bibinfo{volume}{357}},
-%   \bibinfo{pages}{103} (\bibinfo{year}{2015}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2015Ap&SS.357..103W}.
-
-% \bibitem{Hughes18}
-% \bibinfo{author}{{Hughes}, A.~M.}, \bibinfo{author}{{Duch{\^e}ne}, G.} \&
-%   \bibinfo{author}{{Matthews}, B.~C.}
-% \newblock \bibinfo{title}{{Debris Disks: Structure, Composition, and
-%   Variability}}.
-% \newblock \emph{\bibinfo{journal}{\araa}} \textbf{\bibinfo{volume}{56}},
-%   \bibinfo{pages}{541--591} (\bibinfo{year}{2018}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2018ARA&A..56..541H}.
-
-% \bibitem{2014Sci...345.1032M}
-% \bibinfo{author}{{Meng}, H. Y.~A.} \emph{et~al.}
-% \newblock \bibinfo{title}{{Large impacts around a solar-analog star in the era
-%   of terrestrial planet formation}}.
-% \newblock \emph{\bibinfo{journal}{Science}} \textbf{\bibinfo{volume}{345}},
-%   \bibinfo{pages}{1032--1035} (\bibinfo{year}{2014}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2014Sci...345.1032M}.
-
-% \bibitem{Su19}
-% \bibinfo{author}{{Su}, K. Y.~L.} \emph{et~al.}
-% \newblock \bibinfo{title}{{Extreme Debris Disk Variability: Exploring the
-%   Diverse Outcomes of Large Asteroid Impacts During the Era of Terrestrial
-%   Planet Formation}}.
-% \newblock \emph{\bibinfo{journal}{\aj}} \textbf{\bibinfo{volume}{157}},
-%   \bibinfo{pages}{202} (\bibinfo{year}{2019}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2019AJ....157..202S}.
-
-% \bibitem{Su22}
-% \bibinfo{author}{{Su}, K. Y.~L.}, \bibinfo{author}{{Kennedy}, G.~M.},
-%   \bibinfo{author}{{Schlawin}, E.}, \bibinfo{author}{{Jackson}, A.~P.} \&
-%   \bibinfo{author}{{Rieke}, G.~H.}
-% \newblock \bibinfo{title}{{A Star-sized Impact-produced Dust Clump in the
-%   Terrestrial Zone of the HD 166191 System}}.
-% \newblock \emph{\bibinfo{journal}{\apj}} \textbf{\bibinfo{volume}{927}},
-%   \bibinfo{pages}{135} (\bibinfo{year}{2022}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2022ApJ...927..135S}.
-
-% \bibitem{2021ApJ...918...71R}
-% \bibinfo{author}{{Rieke}, G.~H.}, \bibinfo{author}{{Su}, K.~Y.~L.},
-%   \bibinfo{author}{{Melis}, C.} \& \bibinfo{author}{{G{\'a}sp{\'a}r}, A.}
-% \newblock \bibinfo{title}{{Extreme Variability of the V488 Persei Debris
-%   Disk}}.
-% \newblock \emph{\bibinfo{journal}{\apj}} \textbf{\bibinfo{volume}{918}},
-%   \bibinfo{pages}{71} (\bibinfo{year}{2021}).
-
-% \bibitem{RizzoSmith21}
-% \bibinfo{author}{{Rizzo Smith}, M.} \emph{et~al.}
-% \newblock \bibinfo{title}{{ASASSN-21qj: A Rapidly Fading, Sun-Like Star}}.
-% \newblock \emph{\bibinfo{journal}{The Astronomer's Telegram}}
-%   \textbf{\bibinfo{volume}{14879}}, \bibinfo{pages}{1} (\bibinfo{year}{2021}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2021ATel14879....1R}.
-
-% \bibitem{RizzoSmith22}
-% \bibinfo{author}{{Rizzo Smith}, M.} \emph{et~al.}
-% \newblock \bibinfo{title}{{An Update on ASASSN-21qj: A Rapidly Fading, Sun-Like
-%   Star; Back With a Vengeance}}.
-% \newblock \emph{\bibinfo{journal}{The Astronomer's Telegram}}
-%   \textbf{\bibinfo{volume}{15531}}, \bibinfo{pages}{1} (\bibinfo{year}{2022}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2022ATel15531....1R}.
-
-% \bibitem{shappee_man_2014}
-% \bibinfo{author}{Shappee, B.~J.} \emph{et~al.}
-% \newblock \bibinfo{title}{The {Man} behind the {Curtain}: {X}-{Rays} {Drive}
-%   the {UV} through {NIR} {Variability} in the 2013 {Active} {Galactic}
-%   {Nucleus} {Outburst} in {NGC} 2617}.
-% \newblock \emph{\bibinfo{journal}{\apj}} \textbf{\bibinfo{volume}{788}},
-%   \bibinfo{pages}{48} (\bibinfo{year}{2014}).
-% \newblock \urlprefix\url{http://adsabs.harvard.edu/abs/2014ApJ...788...48S}.
-
-% \bibitem{kochanek_all-sky_2017}
-% \bibinfo{author}{Kochanek, C.~S.} \emph{et~al.}
-% \newblock \bibinfo{title}{The {All}-{Sky} {Automated} {Survey} for {Supernovae}
-%   ({ASAS}-{SN}) {Light} {Curve} {Server} v1.0}.
-% \newblock \emph{\bibinfo{journal}{Publications of the Astronomical Society of
-%   the Pacific}} \textbf{\bibinfo{volume}{129}}, \bibinfo{pages}{104502}
-%   (\bibinfo{year}{2017}).
-% \newblock \urlprefix\url{http://adsabs.harvard.edu/abs/2017PASP..129j4502K}.
-
-% \bibitem{Lock2017}
-% \bibinfo{author}{Lock, S.~J.} \& \bibinfo{author}{Stewart, S.~T.}
-% \newblock \bibinfo{title}{The structure of terrestrial bodies: {Impact}
-%   heating, corotation limits, and synestias}.
-% \newblock \emph{\bibinfo{journal}{Journal of Geophysical Research: Planets}}
-%   \textbf{\bibinfo{volume}{122}}, \bibinfo{pages}{950--982}
-%   (\bibinfo{year}{2017}).
-% \newblock \urlprefix\url{http://doi.wiley.com/10.1002/2016JE005239}.
-
-% \bibitem{2009ApJ...704..770M}
-% \bibinfo{author}{{Miller-Ricci}, E.}, \bibinfo{author}{{Meyer}, M.~R.},
-%   \bibinfo{author}{{Seager}, S.} \& \bibinfo{author}{{Elkins-Tanton}, L.}
-% \newblock \bibinfo{title}{{On the Emergent Spectra of Hot Protoplanet Collision
-%   Afterglows}}.
-% \newblock \emph{\bibinfo{journal}{\apj}} \textbf{\bibinfo{volume}{704}},
-%   \bibinfo{pages}{770--780} (\bibinfo{year}{2009}).
-
-% \bibitem{Schlichting2018a}
-% \bibinfo{author}{Schlichting, H.~E.}
-% \newblock \bibinfo{title}{ in \textit{Formation of super-{Earths}}} (eds
-%   \bibinfo{editor}{Hans, D.} \& \bibinfo{editor}{Belmonte, J.~A.})
-%   \emph{\bibinfo{booktitle}{Handbook of {Exoplanets}}}
-%   (\bibinfo{publisher}{Springer}, \bibinfo{year}{2018}).
-% \newblock \urlprefix\url{http://arxiv.org/abs/1802.03090}.
-% \newblock \bibinfo{note}{ArXiv: 1802.03090}.
-
-% \bibitem{DAngelo2018}
-% \bibinfo{author}{D’Angelo, G.} \& \bibinfo{author}{Lissauer, J.~J.}
-% \newblock \bibinfo{title}{ in \textit{Formation of {Giant} {Planets}}} (eds
-%   \bibinfo{editor}{Deeg, H.~J.} \& \bibinfo{editor}{Belmonte, J.~A.})
-%   \emph{\bibinfo{booktitle}{Handbook of {Exoplanets}}} \bibinfo{pages}{1--25}
-%   (\bibinfo{publisher}{Springer International Publishing},
-%   \bibinfo{address}{Cham}, \bibinfo{year}{2018}).
-% \newblock \urlprefix\url{https://doi.org/10.1007/978-3-319-30648-3_140-2}.
-
-% \bibitem{Kaib2016}
-% \bibinfo{author}{Kaib, N.~A.} \& \bibinfo{author}{Chambers, J.~E.}
-% \newblock \bibinfo{title}{The fragility of the terrestrial planets during a
-%   giant-planet instability}.
-% \newblock \emph{\bibinfo{journal}{\mnras}} \textbf{\bibinfo{volume}{455}},
-%   \bibinfo{pages}{3561--3569} (\bibinfo{year}{2016}).
-% \newblock \urlprefix\url{https://doi.org/10.1093/mnras/stv2554}.
-
-% \bibitem{Nakajima2015}
-% \bibinfo{author}{Nakajima, M.} \& \bibinfo{author}{Stevenson, D.~J.}
-% \newblock \bibinfo{title}{Melting and mixing states of the {Earth}'s mantle
-%   after the {Moon}-forming impact}.
-% \newblock \emph{\bibinfo{journal}{Earth and Planetary Science Letters}}
-%   \textbf{\bibinfo{volume}{427}}, \bibinfo{pages}{286--295}
-%   (\bibinfo{year}{2015}).
-% \newblock
-%   \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0012821X15003805}.
-
-% \bibitem{Carter2020}
-% \bibinfo{author}{Carter, P.~J.}, \bibinfo{author}{Lock, S.~J.} \&
-%   \bibinfo{author}{Stewart, S.~T.}
-% \newblock \bibinfo{title}{The {Energy} {Budgets} of {Giant} {Impacts}}.
-% \newblock \emph{\bibinfo{journal}{Journal of Geophysical Research: Planets}}
-%   \textbf{\bibinfo{volume}{125}} (\bibinfo{year}{2020}).
-% \newblock \bibinfo{note}{ArXiv: 1912.04936}.
-
-% \bibitem{Canup2001}
-% \bibinfo{author}{Canup, R.~M.} \& \bibinfo{author}{Asphaug, E.}
-% \newblock \bibinfo{title}{Origin of the {Moon} in a giant impact near the end
-%   of the {Earth}'s formation}.
-% \newblock \emph{\bibinfo{journal}{Nature}} \textbf{\bibinfo{volume}{412}},
-%   \bibinfo{pages}{708--12} (\bibinfo{year}{2001}).
-% \newblock \urlprefix\url{http://dx.doi.org/10.1038/35089010}.
-
-% \bibitem{Lock18}
-% \bibinfo{author}{{Lock}, S.~J.} \emph{et~al.}
-% \newblock \bibinfo{title}{{The Origin of the Moon Within a Terrestrial
-%   Synestia}}.
-% \newblock \emph{\bibinfo{journal}{Journal of Geophysical Research (Planets)}}
-%   \textbf{\bibinfo{volume}{123}}, \bibinfo{pages}{910--951}
-%   (\bibinfo{year}{2018}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2018JGRE..123..910L}.
-
-% \bibitem{Benz2008_Mercury_book}
-% \bibinfo{author}{Benz, W.}, \bibinfo{author}{Anic, A.},
-%   \bibinfo{author}{Horner, J.} \& \bibinfo{author}{Whitby, J.~A.}
-% \newblock \bibinfo{title}{ in \textit{The {Origin} of {Mercury}}} (eds
-%   \bibinfo{editor}{Balogh, A.}, \bibinfo{editor}{Ksanfomality, L.} \&
-%   \bibinfo{editor}{von Steiger, R.}) \emph{\bibinfo{booktitle}{Mercury}} Space
-%   {Sciences} {Series} of {ISSI}, \bibinfo{pages}{7--20}
-%   (\bibinfo{publisher}{Springer}, \bibinfo{address}{New York, NY},
-%   \bibinfo{year}{2008}).
-% \newblock \urlprefix\url{https://doi.org/10.1007/978-0-387-77539-5_2}.
-
-% \bibitem{Leinhardt2015}
-% \bibinfo{author}{Leinhardt, Z.~M.}, \bibinfo{author}{Dobinson, J.},
-%   \bibinfo{author}{Carter, P.~J.} \& \bibinfo{author}{Lines, S.}
-% \newblock \bibinfo{title}{Numerically predicted indirect signatures of
-%   terrestrial planet formation}.
-% \newblock \emph{\bibinfo{journal}{\apj}} \textbf{\bibinfo{volume}{806}},
-%   \bibinfo{pages}{23} (\bibinfo{year}{2015}).
-% \newblock \urlprefix\url{https://doi.org/10.1088/0004-637X/806/1/23}.
-
-% \bibitem{Carter2020a}
-% \bibinfo{author}{Carter, P.~J.} \& \bibinfo{author}{Stewart, S.~T.}
-% \newblock \bibinfo{title}{Colliding in the {Shadows} of {Giants}:
-%   {Planetesimal} {Collisions} during the {Growth} and {Migration} of {Gas}
-%   {Giants}}.
-% \newblock \emph{\bibinfo{journal}{The Planetary Science Journal}}
-%   \textbf{\bibinfo{volume}{1}}, \bibinfo{pages}{45} (\bibinfo{year}{2020}).
-% \newblock \urlprefix\url{https://doi.org/10.3847/PSJ/abaecc}.
-% \newblock \bibinfo{note}{ArXiv: 2008.05549 Publisher: IOP Publishing}.
-
-% \bibitem{Stewart2008}
-% \bibinfo{author}{Stewart, S.~T.}, \bibinfo{author}{Seifter, A.} \&
-%   \bibinfo{author}{Obst, A.~W.}
-% \newblock \bibinfo{title}{Shocked {H2O} ice: {Thermal} emission measurements
-%   and the criteria for phase changes during impact events}.
-% \newblock \emph{\bibinfo{journal}{Geophysical Research Letters}}
-%   \textbf{\bibinfo{volume}{35}}, \bibinfo{pages}{L23203}
-%   (\bibinfo{year}{2008}).
-% \newblock \urlprefix\url{http://doi.wiley.com/10.1029/2008GL035947}.
-% \newblock \bibinfo{note}{ISBN: 0094-8276}.
-
-% \bibitem{Davies2020}
-% \bibinfo{author}{Davies, E.~J.} \emph{et~al.}
-% \newblock \bibinfo{title}{Silicate {Melting} and {Vaporization} {During}
-%   {Rocky} {Planet} {Formation}}.
-% \newblock \emph{\bibinfo{journal}{Journal of Geophysical Research: Planets}}
-%   \textbf{\bibinfo{volume}{125}} (\bibinfo{year}{2020}).
-% \newblock
-%   \urlprefix\url{https://onlinelibrary.wiley.com/doi/abs/10.1029/2019JE006227}.
-% \newblock \bibinfo{note}{ArXiv: 2002.00998 Publisher: John Wiley \& Sons, Ltd}.
-
-% \bibitem{Johnson2015}
-% \bibinfo{author}{Johnson, B.~C.}, \bibinfo{author}{Minton, D.~A.},
-%   \bibinfo{author}{Melosh, H.~J.} \& \bibinfo{author}{Zuber, M.~T.}
-% \newblock \bibinfo{title}{Impact jetting as the origin of chondrules}.
-% \newblock \emph{\bibinfo{journal}{Nature}} \textbf{\bibinfo{volume}{517}},
-%   \bibinfo{pages}{339--341} (\bibinfo{year}{2015}).
-% \newblock \urlprefix\url{http://dx.doi.org/10.1038/nature14105}.
-% \newblock \bibinfo{note}{Publisher: Nature Publishing Group, a division of
-%   Macmillan Publishers Limited. All Rights Reserved.}
-
-% \bibitem{Caracas2023}
-% \bibinfo{author}{Caracas, R.} \& \bibinfo{author}{Stewart, S.~T.}
-% \newblock \bibinfo{title}{No magma ocean surface after giant impacts between
-%   rocky planets}.
-% \newblock \emph{\bibinfo{journal}{Earth and Planetary Science Letters}}
-%   \textbf{\bibinfo{volume}{608}}, \bibinfo{pages}{118014}
-%   (\bibinfo{year}{2023}).
-% \newblock
-%   \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0012821X23000274}.
-
-% \bibitem{Fegley2023_BSE_cond}
-% \bibinfo{author}{Fegley, B.}, \bibinfo{author}{Lodders, K.} \&
-%   \bibinfo{author}{Jacobson, N.~S.}
-% \newblock \bibinfo{title}{Chemical equilibrium calculations for bulk silicate
-%   earth material at high temperatures}.
-% \newblock \emph{\bibinfo{journal}{Geochemistry}} \bibinfo{pages}{125961}
-%   (\bibinfo{year}{2023}).
-% \newblock
-%   \urlprefix\url{https://www.sciencedirect.com/science/article/pii/S0009281923000120}.
-
-% \bibitem{Lock2018moon}
-% \bibinfo{author}{Lock, S.~J.} \emph{et~al.}
-% \newblock \bibinfo{title}{The origin of the {Moon} within a terrestrial
-%   synestia}.
-% \newblock \emph{\bibinfo{journal}{Journal of Geophysical Research: Planets}}
-%   \textbf{\bibinfo{volume}{123}}, \bibinfo{pages}{910--951}
-%   (\bibinfo{year}{2018}).
-% \newblock \urlprefix\url{http://doi.wiley.com/10.1002/2017JE005333}.
-% \newblock \bibinfo{note}{ArXiv: 1802.10223v1}.
-
-% \bibitem{Lock2020}
-% \bibinfo{author}{Lock, S.~J.}, \bibinfo{author}{Stewart, S.~T.} \&
-%   \bibinfo{author}{Ćuk, M.}
-% \newblock \bibinfo{title}{The energy budget and figure of {Earth} during
-%   recovery from the {Moon}-forming giant impact}.
-% \newblock \emph{\bibinfo{journal}{Earth and Planetary Science Letters}}
-%   \textbf{\bibinfo{volume}{530}}, \bibinfo{pages}{115885}
-%   (\bibinfo{year}{2020}).
-% \newblock \urlprefix\url{https://doi.org/10.1016/j.epsl.2019.115885}.
-% \newblock \bibinfo{note}{ArXiv: 1910.00619 Publisher: Elsevier}.
-
-% %%%%%%%%%%%
-% %%% 30
-% %%%%%%%%%%%%
-
-% \end{thebibliography}
-
-% \clearpage
-
-
-
-
-
 \setcounter{figure}{0}    
 
-\renewcommand\figurename{Extended Data Figure}% defined as per springer style 
+\renewcommand\figurename{Extended Data Fig.}% defined as per springer style 
 \renewcommand\tablename{Extended Data Table}%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%  
@@ -727,52 +431,156 @@ Where necessary we assume a stellar mass equal to the Sun.
 %
 \asas\  has a neighbor (Gaia DR3 5539970597334497024 = 2MASS~J08152298-3859244) which is a visual double.
 %
-Based on the Gaia DR3 mean ICRS position for epoch 2016.0, the visual companion lies at a separation $\rho$ = $3738.243\pm0.062$ mas and at position angle $\theta$ = $249^{\circ}.977$.
+Based on the Gaia EDR3 mean ICRS position for epoch 2016.0, the visual companion lies at a separation $\rho$ = $3738.243\pm0.062$ mas and at position angle $\theta$ = $249^{\circ}.977$.
 %
 Their parallaxes ($\varpi$ = $1.7631\pm0.0112$ mas vs. $1.4711\pm0.0523$ mas) differ by 5.5$\sigma$ and proper motions ($\mu_{\alpha} = -9.692\pm0.012$, $\mu_{\delta} = 7.349\pm0.012$ \masyr\, vs. $\mu_{\alpha} = -0.114\pm0.055$, $\mu_{\delta} = 6.419\pm0.053$ \masyr) differ by a factor of 2.
 %
 The large differences in distance and proper motions suggests that these stars are not associated.
 
-The stellar photospheric flux was estimated by fitting stellar models to GAIA, APASS, and DENIS and \gls{wise} optical/near-IR photometry (the 2MASS $J$ photometry is an upper limit, and $H$ and $K_s$ are flagged as contaminated).
+The stellar photospheric flux was estimated by fitting stellar models to GAIA, APASS, and DENIS and WISE optical/near-IR photometry (the 2MASS $J$ photometry is an upper limit, and $H$ and $K_s$ are flagged as contaminated).
 %
 Extended Data Figure \ref{fig:sed} shows the resulting models (the dashed line is discussed below).
 %
-The ALLWISE photometry ($\sim$2010) is consistent with the \gls{neowise} photometry pre-brightening nearly ten years later.
+The ALLWISE photometry ($\sim$2010) is consistent with the NEOWISE photometry pre-brightening nearly ten years later.
 %
 
-A fit using the method of \cite{2019MNRAS.488.3588Y} with GAIA and DENIS photometry finds that the \gls{wise} W1/2 fluxes are about 20\% too high, but better agreement is found with APASS photometry.
+A fit using the method of \cite{2019MNRAS.488.3588Y} with GAIA and DENIS photometry finds that the WISE W1/2 fluxes are about 20\% too high, but better agreement is found with APASS photometry.
 %
-The difference is explained by the fact that \gls{wise} and APASS have lower spatial resolution and include the flux of the approximately 2\,mag fainter visual double to the west of \asas{} (which is visible in 2MASS).
+The difference is explained by the fact that WISE and APASS have lower spatial resolution and include the flux of the $\sim$2\,mag fainter visual double to the West of \asas{} (which is visible in 2MASS).
 %
 The best fit stellar effective temperature is $5560 \pm 100$\,K.
 %
 We do not find that reddening is needed for these models; while there is relatively little photometry with which to strongly constrain both $T_{\rm eff}$ and $A_V$, the $T_{\rm eff}$ from GAIA DR3 is $5760 \pm 10$\,K, which suggests that the conclusion of little reddening is valid.
 %
-Primarily, we conclude that there is no indication that \asas{} showed evidence for an infrared excess before the brightening seen by \gls{neowise}.
+Primarily, we conclude that there is no evidence that \asas{} showed evidence for an IR excess before the brightening seen by NEOWISE.
 
-To estimate the infrared excess properties we fit the same models, but now including the first five post-brightening \gls{neowise} data points.
+To estimate the IR excess properties we fit the same models, but now including the first five post-brightening NEOWISE data points.
 %
-We correct for the nearby source by using the GAIA photometry for the star, and the post/pre-brightening difference for the \gls{wise} excess flux.
+We correct for the nearby source by using the GAIA photometry for the star, and the post/pre-brightening difference for the WISE excess flux.
 %
 This fit yields the fractional luminosity $L_{\rm dust}/L_\star = 0.04 \pm 0.005$ and a dust temperature $950 \pm 30$\,K.
 %
-To estimate the dust temperature as a function of time we simply subtract the median pre-brightening W1/2 fluxes, with the r.m.s. of these values as the uncertainty (see Figure \ref{fig:wisephot}).
+To estimate the dust temperature as a function of time we simply subtract the median pre-brightening W1/2 fluxes, with the RMS of these values as the uncertainty (see Figure \ref{fig:wisephot}).
 %
 The temperature uncertainty increases as the excess fades; the excess flux uncertainty depends on both the observed flux and the stellar flux, and as the excess decreases the stellar uncertainty (which is constant) becomes an increasingly large fraction of the excess.
 %
-These fluxes therefore exclude the contaminating flux from the nearby object, and are consistent with the  \gls{sed}-derived dust temperature.
+These fluxes therefore exclude the contaminating flux from the nearby object, and are consistent with the SED-derived dust temperature.
 
 Converting dust temperatures to stellocentric radii is uncertain because dust temperature depends on grain size.
 %
 Typically the radius derived under the assumption of blackbody emission is an underestimate by a factor of up to five \citep{2013MNRAS.428.1263B,2015MNRAS.454.3207P}.
 %
-Thus, we conclude that the dust location might, in the most extreme case, be as far as 1\,au, but not sufficiently far to explain the 900\,day delay between the \gls{wise} and optical flux variations. which requires a distance of at least 2\,au.
+Thus, we conclude that the dust location might in the most extreme case be as far as 1\,au, but not sufficiently far to explain the 900\,day delay between the WISE and optical flux variations. which requires a distance of at least 2\,au.
+
+
+
+
+\begin{figure}[h!]
+    \centering
+\includegraphics[width=0.8\textwidth]{figures/sed.pdf}
+    \caption{\textbf{Spectrum of \asas{}~components.} The red symbols show the optical and pre-brightnening \gls{wise} infrared photometry and the blue symbols show the post-brightnening \gls{wise} and \gls{alma} fluxes. Stellar and 1000\,K components consistent with the pre- and post-brightening fluxes are shown. The dashed line shows an estimated cool component spectrum for \SI{0.1}{\micro\metre}-sized grains associated with the transiting dust cloud. Downward triangles are upper limits.
+    %
+    Error bars are shown at $1\sigma$ confidence.
+}
+    \label{fig:sed}
+   \script{fvsr.py}
+\end{figure}
+%
+
+
+\begin{table}
+    \centering
+    \caption{Properties of \asas}
+    \begin{tabular}{@{}lc@{}}
+    \hline\hline
+Property                               & Value                    \\
+        \hline
+         $\alpha_{ICRS}$, {[}hh mm ss{]}  & 08:15:23.30\footnotemark[1]  \\
+         $\delta_{ICRS}$, {[}dd mm ss{]}  & -38:59:23.3\footnotemark[1]  \\
+         $\mu_{\alpha}$ {[}mas yr$^{-1}${]}     & $-9.692\pm0.012$\footnotemark[1]   \\
+         $\mu_{\delta}$ {[}mas yr$^{-1}${]}     & $7.349\pm0.012$\footnotemark[1]  \\
+         $\varpi$ {[}mas{]}                     & $1.763\pm0.011$\footnotemark[1]   \\
+         RV {[}km s$^{-1}${]}                   & $25.8\pm3$\footnotemark[1] \\
+         Distance {[}pc{]}                      & $567.2^{+6.7}_{-5.9}$\footnotemark[2] \\ 
+        \hline
+         $G$ {[}mag{]}                          & $13.371\pm 0.003$\footnotemark[1]  \\
+         $G_{BP}$ {[}mag{]}                     & $13.697\pm 0.003$\footnotemark[1]    \\
+         $G_{RP}$ {[}mag{]}                     & $12.882\pm 0.004$\footnotemark[1]   \\
+         $G_{BP}-G_{RP}$ {[}mag{]}              & $0.815\pm 0.005$\footnotemark[1]         \\
+         $J$ {[}mag{]}                          & $>12.07$\footnotemark[3]   \\
+         $H$ {[}mag{]}                          & $12.03\pm0.04$\footnotemark[3]    \\
+         $K_s$ {[}mag{]}                          & $11.99\pm0.04$\footnotemark[3]    \\
+         $B$ (AB) {[}mag{]}                     & $14.16\pm0.06$\footnotemark[4]     \\
+         $V$ (AB) {[}mag{]}                     & $13.48\pm0.03$\footnotemark[4]   \\
+         $g'$ (AB) {[}mag{]}                     & $13.77\pm0.03$\footnotemark[4]  \\
+         $r'$ (AB) {[}mag{]}                     & $13.29\pm0.03$\footnotemark[4]     \\
+         $i'$ (AB) {[}mag{]}                     & $13.20\pm0.08$\footnotemark[4]   \\
+        \hline
+%         $M_*$ [$M_{\odot}$]                    & $0.85\pm0.02$  \\
+         \teff{} [K]                            & $5760\pm10$\footnotemark[1]  \\
+         {[}Fe/H{]} [dex]                       & $-0.23\pm0.01$\footnotemark[1] \\
+         log\,$g$ [log$_{10}$ cm\,s$^{-2}$]     & $4.339\pm0.005$\footnotemark[1]  \\
+         $R_*$ [\rsun{}]                        & $1.04$\footnotemark[5] \\
+         log($L_{bol}/L_{\odot}$) [dex]         & $0.033$\footnotemark[5] \\
+         $m_{bol}$ [mag]                        & $13.49\pm0.02$\footnotemark[6] \\
+         $E(G_{BP}-G_{RP})$ {[}mag{]}           & $0.01 \pm 0.005$\footnotemark[6]    \\
+         Age [Myr]                              & $300\pm92$\footnotemark[7] \\
+         
+        \hline
+    \end{tabular}
+    \footnotetext[1]{Gaia EDR3 \cite{Brown21}, coordinates are J2000 at epoch 2000.0.}
+    \footnotetext[2]{\cite{BailerJones21}}
+    \footnotetext[3]{2MASS \cite{Cutri03}, $J$ is an upper limit and $H$ and $K_s$ are flagged as contaminated.}
+    \footnotetext[4]{APASS \cite{2015AAS...22533616H}, this photometry includes a nearby star.}
+    \footnotetext[5]{Estimated from an SED fit fixed to Gaia properties.}
+    \footnotetext[6]{Estimated using mean stellar properties \cite{2013ApJS..208....9P}.}
+    \footnotetext[7]{Estimated using rotation period.}
+
+\label{tab:Stellarprop}
+\end{table}
+
 
 \subsection*{Observations}\label{sec:obs}
 
-The beginning of the eclipse was announced \cite{RizzoSmith21} by the \gls{asassn} survey, which prompted several observing campaigns at optical wavelengths and an \gls{alma} observation at Band 7 (program \texttt{2019.A.00040.S}).
+The beginning of the eclipse was announced \cite{RizzoSmith21} by the ASAS-SN survey, which triggered several observing campaigns at optical wavelengths and an ALMA observation at Band 7 (program \texttt{2019.A.00040.S}).
 %
-The photometric data and passband filters are listed in Extended Data Table~\ref{tab:photometry}.
+
+
+
+\begin{table}
+    \centering
+    \caption{Photometric observations of ASASSN-21qj. The number of points are listed per survey and filter. %
+    %
+    This is the count after initial rejection of photometric points with significantly large error bars.
+    %
+    Further photometric points may have been rejected in the differeny analysis steps.
+    %
+    The ROAD observations constitute the majority of observations from the AAVSO data sets.}
+    \begin{tabular}{@{}lcc@{}}
+    \hline\hline
+Survey name  & Filter & Number of points                    \\
+        \hline
+ASASSN   &  $V$   & 758 \\
+   &  $g'$   & 3225 \\
+        \hline
+ATLAS & $c$ & 161 \\
+ & $o$ & 677 \\
+        \hline
+AAVSO   &  $B$   & 729 \\    % 601 in RVC
+   &  $I$   & 728 \\    % 612 in RVC
+   &  $V$   & 722 \\    % 599 in RVC
+        \hline
+LCOGT   &  $g$   & 275 \\    % RVC
+   &  $r$   & 224 \\    % RVC
+   &  $i$   & 168 \\    % RVC
+        \hline
+NEOWISE & $W1$ & 18 \\
+ & $W2$ & 18 \\
+        \hline
+    \end{tabular}
+ 
+\label{tab:photometry}
+\end{table}
 
 % ░█████╗░░██████╗░█████╗░░██████╗
 % ██╔══██╗██╔════╝██╔══██╗██╔════╝
@@ -780,20 +588,22 @@ The photometric data and passband filters are listed in Extended Data Table~\ref
 % ██╔══██║░╚═══██╗██╔══██║░╚═══██╗
 % ██║░░██║██████╔╝██║░░██║██████╔╝
 % ╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░
-
-The \gls{asas} \cite[][]{pojmanski_all_1997, asas_2005, asas_2018} is a survey consisting of two observing stations - one in Las Campanas, Chile and the other on Maui, Hawaii. 
 %
-Each observatory is equipped with two \gls{ccd} cameras using V and I filters and commercial f $ = 200$ mm, D $= 100$ mm lenses, although both larger (D $=250$ mm) and smaller (50-72 mm) lenses were used at earlier times.
+% 230 words
+%
+The All Sky Automated Survey \cite[ASAS; ][]{pojmanski_all_1997, asas_2005, asas_2018} is a survey consisting of two observing stations - one in Las Campanas, Chile and the other on Maui, Hawaii. 
+%
+Each observatory is equipped with two CCD cameras using V and I filters and commercial f $ = 200$ mm, D $= 100$ mm lenses, although both larger (D $=250$ mm) and smaller (50-72 mm) lenses were used at earlier times.
 %
 The majority of the data are taken with a pixel scale of $\approx$ 15\arcsec{}.
 %
-\gls{asas} splits the sky into 709 partially overlapping 9\degr{} $\times$ 9\degr{} fields, taking on average 150 3-minute exposures per night, leading to a variable cadence of 0-2 frames per night.
+ASAS splits the sky into 709 partially overlapping 9\degr{} $\times$ 9\degr{} fields, taking on average 150 3-minute exposures per night, leading to a variable cadence of 0-2 frames per night.
 %
-Depending on the equipment used and the mode of operation, the \gls{asas} limiting magnitude varied between 13.5 and 15.5 mag in V, and the saturation limit was 5.5 to 7.5 mag. 
+Depending on the equipment used and the mode of operation, the ASAS limiting magnitude varied between 13.5 and 15.5 mag in V, and the saturation limit was 5.5 to 7.5 mag. 
 %
 Precision is around 0.01-0.02 mag for bright stars and below 0.3 mag for the fainter ones. 
 %
-\gls{asas} photometry is calibrated against the Tycho catalog, and its accuracy is limited to 0.05 mag for bright, non-blended stars.
+ASAS photometry is calibrated against the Tycho catalog, and its accuracy is limited to 0.05 mag for bright, non-blended stars.
 
 % ░█████╗░░██████╗░█████╗░░██████╗░░░░░░░██████╗███╗░░██╗
 % ██╔══██╗██╔════╝██╔══██╗██╔════╝░░░░░░██╔════╝████╗░██║
@@ -802,7 +612,7 @@ Precision is around 0.01-0.02 mag for bright stars and below 0.3 mag for the fai
 % ██║░░██║██████╔╝██║░░██║██████╔╝░░░░░░██████╔╝██║░╚███║
 % ╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░░░░░░░╚═════╝░╚═╝░░╚══╝
 
-\Gls{asassn} \cite[][]{shappee_man_2014,kochanek_all-sky_2017} consists of five stations around the globe, with each station hosting four telescopes with a shared mount.
+The All Sky Automated Survey for Supernovae \cite[ASAS-SN; ][]{shappee_man_2014,kochanek_all-sky_2017} consists of five stations around the globe, with each station hosting four telescopes with a shared mount.
 %
 The telescopes consist of a 14-cm aperture telephoto lens with a field of view of approximately 4.5\degr{}$\times$4.5\degr{} and an 8.0\arcsec{} pixel scale.
 % 
@@ -816,11 +626,11 @@ Two of the original stations (one in Hawaii and one in Chile) were initially fit
 % ██║░░██║╚█████╔╝██║░░██║██████╔╝
 % ╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚═════╝░
 
-The \gls{road} \cite[][]{Hambsch12} is a fully automated telescope located in Chile that obtains nightly photometry in Astrodon B, V and I bands for a wide range of astronomical projects.
+The Remote Observatory Atacama Desert \cite[ROAD; ][]{Hambsch12} is a fully automated telescope located in Chile that obtains nightly photometry in Astrodon B, V and I bands for a wide range of astronomical projects.
 %
-It consists of a 40-cm $f/6.8$ Optimized Dall-Kirkham and uses a Finger Lakes Instruments camera with a 4k$\times$4k array with pixels of \SI{9}{\micro\metre} in size.
+It consists of a 40-cm $f/6.8$ Optimized Dall-Kirkham and uses a Finger Lakes Instruments camera with a 4k$\times$4k array with pixels of $9\mu m$ in size.
 %
-Data are reduced using a custom pipeline and then published on the \gls{aavso} website.
+Data are reduced using a custom pipeline and then published on the AAVSO website.
 
 % ██╗░░░░░░█████╗░░█████╗░░██████╗░████████╗
 % ██║░░░░░██╔══██╗██╔══██╗██╔════╝░╚══██╔══╝
@@ -829,19 +639,21 @@ Data are reduced using a custom pipeline and then published on the \gls{aavso} w
 % ███████╗╚█████╔╝╚█████╔╝╚██████╔╝░░░██║░░░
 % ╚══════╝░╚════╝░░╚════╝░░╚═════╝░░░░╚═╝░░░
 
-\Gls{lcogt} is a network of 25 fully robotic operated telescopes distributed over 7 sites located all around the globe.
+Las Cumbres Observatory Global Telescope (LCOGT) is a network of 25 fully robotic operated telescopes distributed over 7 sites located all around the globe.
 %
 These telescopes are designed to observe transient astronomical events at optical and near-infrared wavelengths.
 %
-\gls{lcogt} provides a large variety of filter options, but the data we collected are in SDSS $g'$, $r'$ and $i'$ bands.
+LCOGT provides a large variety of filter options, but the data we collected are in SDSS $g'$, $r'$ and $i'$ bands.
 %
-All data is automatically processed and calibrated by the \gls{banzai} pipeline.
+All data is automatically processed and calibrated by the BANZAI pipeline.
 %
-The visual companion caused complications in \gls{banzai}s automatic aperture extraction routine; sometimes correct apertures were extracted for both \asas\ and the nearby star, and sometimes both sources were extracted in one large aperture, often with an offset from the true center of \asas.
+The visual companion caused complications in BANZAIs automatic aperture extraction routine; sometimes correct apertures were extracted for both \asas\ and the nearby star, and sometimes both sources were extracted in one large aperture, often with an offset from the true center of \asas.
 %
-To correct this, the last two stages of the \gls{banzai} routine, aperture extraction and photometry calibration, were modified for this specific situation. 
+%Although the companion is faint, this caused the resulting photometry to be in inaccurate and therefore unusable.
 %
-The calibrated magnitudes of all sources in the frames are computed using the default \gls{banzai} photometry calibration routine.
+To correct this, the last two stages of the BANZAI routine, aperture extraction and photometry calibration, were modified for this specific situation. 
+%
+The calibrated magnitudes of all sources in the frames are computed using the default BANZAI photometry calibration routine.
 
 % ░█████╗░████████╗██╗░░░░░░█████╗░░██████╗
 % ██╔══██╗╚══██╔══╝██║░░░░░██╔══██╗██╔════╝
@@ -850,15 +662,15 @@ The calibrated magnitudes of all sources in the frames are computed using the de
 % ██║░░██║░░░██║░░░███████╗██║░░██║██████╔╝
 % ╚═╝░░╚═╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═════╝░
 
-\gls{atlas} is a project that searches for near earth asteroids down to a magnitude of 19 \cite{Tonry18}.
+ATLAS is a project that searches for near earth asteroids down to a magnitude of 19 \cite{Tonry18}.
 %
 Two filters were obtained, the $o$ (orange) and $c$ (cyan) filters respectively.
 %
 The data consists of two to four photometric points observed each night when conditions permitted.
 %
-Photometry with large errors was rejected in a first pass and then the remaining observations during a night were averaged and an error based on the r.m.s. of these nightly points was calculated.
+Photometry with large errors was rejected in a first pass, then the remaining observations during a night were averaged and an error based on the r.m.s. of these nightly points was calculated.
 %
-The photometry covers the time period in which the collision event occurred. 
+The photometry covers the time period where the collision event occurred. 
 
 % ██████╗░░█████╗░████████╗░█████╗░████████╗██╗░█████╗░███╗░░██╗░█████╗░██╗░░░░░
 % ██╔══██╗██╔══██╗╚══██╔══╝██╔══██╗╚══██╔══╝██║██╔══██╗████╗░██║██╔══██╗██║░░░░░
@@ -882,13 +694,17 @@ The photometry covers the time period in which the collision event occurred.
 % ░░░██║░░░███████╗██████╔╝██████╔╝
 % ░░░╚═╝░░░╚══════╝╚═════╝░╚═════╝░
 
-The \gls{tess} \cite[][]{2015JATIS...1a4003R} is a satellite designed to survey for transiting exoplanets among the brightest and nearest stars over most of the sky.
+The Transiting Exoplanet Survey Satellite \cite[TESS; ][]{2015JATIS...1a4003R} is a satellite designed to survey for transiting exoplanets among the brightest and nearest stars over most of the sky.
 %
-The \gls{tess} satellite orbits the Earth every 13.7 days on a highly elliptical orbit, scanning a sector of the sky spanning 24\degr $\times$ 96\degr\ for a total of two orbits, before moving on to the next sector. 
+The TESS satellite orbits the Earth every 13.7 days on a highly elliptical orbit, scanning a sector of the sky spanning 24\degr $\times$ 96\degr\ for a total of two orbits, before moving on to the next sector. 
 %
 It captures images at a 2 second (used for guiding), 20 seconds (for 1000 bright asteroseismology targets), 120 seconds (for 200 000 stars that are likely planet hosts) and 30 minute (full frame image) cadences.
 %
-The instrument consists of 4 \glspl{ccd} each with a field of view of 24\degr$\times$24\degr, with a wide band-pass filter from 600-1000 nm (similar to the $I_C$ band) and provides high precision (approximately milli-mag) light curves for stars down to about 14\,mag ($I_C$).
+The instrument consists of 4 CCDs each with a field of view of 24\degr$\times$24\degr, with a wide band-pass filter from 600-1000 nm (similar to the $I_C$ band) and provides high precision ($\approx$milli-mag) light curves for stars down to about 14\,mag ($I_C$).
+%
+
+% 150 words
+
 
 % ███╗░░██╗███████╗░█████╗░░██╗░░░░░░░██╗██╗░██████╗███████╗
 % ████╗░██║██╔════╝██╔══██╗░██║░░██╗░░██║██║██╔════╝██╔════╝
@@ -897,15 +713,15 @@ The instrument consists of 4 \glspl{ccd} each with a field of view of 24\degr$\t
 % ██║░╚███║███████╗╚█████╔╝░░╚██╔╝░╚██╔╝░██║██████╔╝███████╗
 % ╚═╝░░╚══╝╚══════╝░╚════╝░░░░╚═╝░░░╚═╝░░╚═╝╚═════╝░╚══════╝
 
-The \gls{neowise} mission uses a space-based infrared telescope that has been surveying the sky since 2013 at 3.4 and \SI{4.6}{\micro\metre}.
+The Near-Earth Object Wide-field Infrared Survey Explorer (NEOWISE) is a space-based infrared telescope that has been surveying the sky since 2013 at $3.4$ and $4.6~\mu$m.
 %
-\gls{neowise} orbits near the Earth's day--night terminator, scanning rings of the sky near about $90^\circ$ solar elongation, and obtains a sequence of observations of a given region of sky every six months.
+NEOWISE orbits near the Earth's day-night terminator, scanning rings of the sky near $\sim90^\circ$ Solar elongation, and obtains a sequence of observations of a given region of sky every six months.
 %
 The two wavelength channels are obtained simultaneously through a beamsplitter, allowing for color information to be extracted for each source detected in both bands.
 %
-Detailed descriptions of \gls{neowise} operations and early results from the Reactivation mission \cite{mainzer14neowise} and the standard data processing and data characteristics \cite{cutri15} are available.
+Detailed descriptions of NEOWISE operations and early results from the Reactivation mission \cite{mainzer14neowise} and the standard data processing and data characteristics \cite{cutri15} are available.
 %
-A single data point for each epoch and wavelength is calculated by taking the weighted average of the individual \gls{neowise} measurements.
+A single data point for each epoch and wavelength is calculated by taking the weighted average of the individual NEOWISE measurements.
 
 % ░█████╗░██╗░░░░░███╗░░░███╗░█████╗░
 % ██╔══██╗██║░░░░░████╗░████║██╔══██╗
@@ -914,679 +730,24 @@ A single data point for each epoch and wavelength is calculated by taking the we
 % ██║░░██║███████╗██║░╚═╝░██║██║░░██║
 % ╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚═╝░░╚═╝
 
-The \gls{alma} data from programme \texttt{2019.A.00040.S} were downloaded and processed through to a measurement set with CASA \cite{2007ASPC..376..127M}.
+
+The ALMA data from programme \texttt{2019.A.00040.S} were downloaded and processed through to a measurement set with CASA \cite{2007ASPC..376..127M}.
 %
-These observations were taken 2021 September 28 (MJD=59485) and used band 7, with a mean wavelength of \SI{880}{\micro\metre}.
+These observations were taken 2021 September 28 (MJD=59485) and used band 7, with a mean wavelength of 880\,$\mu$m.
 %
 No source is visible in the default archive products, and we also detect no source at the expected location in CLEAN images.
 %
-The archive products report an RMS of \SI{17}{\micro\jansky}, and we measure an RMS of \SI{20}{\micro\jansky} in a naturally weighted image.
+The archive products report an RMS of 17\,$\mu$Jy, and we measure an RMS of 20\,$\mu$Jy in a naturally weighted image.
 %
-We therefore consider these results as an upper limit of \SI{60}{\micro\jansky}.
+We therefore consider these results as an upper limit of 60\,$\mu$Jy.
 %
-In terms of the infrared excess visible in the mid-IR with \gls{wise} this upper limit is not at all constraining, but does set limits on emission from cooler dust (Figure~\ref{fig:sed}).
+In terms of the infrared excess visible in the mid-IR with WISE this upper limit is not at all constraining, but does set limits on emission from cooler dust (Figure~\ref{fig:sed}).
 
 \subsection*{Light curves}
 
-In this section we consider the light curves; first the implications of the \gls{tess} data for the stellar age, and then the implications of the ground-based optical light curves for transverse velocity of the occulting material and dust grain sizes.
+In this section we consider the light curves; first the implications of the TESS data for the stellar age, and then the implications of the ground-based optical light curves for transverse velocity of the occulting material and dust grain sizes.
 
-\subsubsection*{Stellar rotation and age}
-
-\gls{tess} data from the Quick-Look Pipeline \cite{2020RNAAS...4..204H,2021RNAAS...5..234K} was retrieved from the \gls{mast} and is shown in Extended Data Figure \ref{fig:TESS_lc}.
-%
-The star was observed in sectors 8, 34 and 35.
-%
-The star was observed soon after the infrared brightening, and two sequential sectors some time later.
-
-A periodic signal with a period of approximately 4.3 days is seen with a peak to peak amplitude of 2\% of the mean flux, and the similar period can be seen in the two later sectors but they are overwhelmed with the first signs of debris from the transiting object.
-%
-We carry out a Lomb-Scargle periodogram on S08, and obtain a notable detection of $P=4.43\pm 0.33$ days.
-%
-A similar period is seen at lower significance in the later sectors.
-%
-Aside from a peak at 1\,day, the  strongest peak in the \gls{asassn} data has a similar period, at 4.1\,days.
-%
-We attribute this modulation due to star spots on the star rotating in and out of our view, and so we assert that is the rotational period of the star.
-%
-Using this rotational period, the gyrochronological age \cite{Bouma23,Kounkel22} is calculated to be $300\pm92$ Myr.
-
-\subsubsection*{Duration of the eclipse and gradient analysis}
-
-Figure \ref{fig:eclipse_overview} shows the optical light curves. The start of the optical eclipse is seen around MJD 59350 in the $g'$ band observations, and returns to pre-eclipse levels by MJD 59850, giving a total eclipse duration of approximately 500 days. The eclipse depth varies as a function of wavelength, which is discussed below.
-%
-The normalisation of the light curves for the \gls{asassn} and \gls{atlas} photometry was performed by calculating the out of transit flux before MJD 58700.
-%
-The \gls{lcogt} and \gls{aavso} photometry was determined by aligning the photometry of the eclipse with the \gls{asassn} and \gls{atlas} photometry on a per band basis.
-%
-By treating the linear changes in flux as due to the edges of large dust clouds crossing the disk of the star, and the largest amount of absorption within any of these segments as an estimate for the absorption of the cloud \citep[see equations 4.2 and 4.3 in ][]{Kennedy17}, we can determine a robust lower limit to the transverse velocity of 7.5 km\,s$^{-1}$ for the material moving in front of the star. The method is illustrated in Extended Data Figure~\ref{fig:gradientconvert} and the results over the full optical transit are shown in Figure~\ref{fig:eclipse_overview}b.
-%
-We convert the magnitude $M(t)$ at time $t$ to a normalised flux $f(t)=10^{\left(\left(M(t)-M_0\right)/-2.5\right)}$ where $M_0$ is the mean magnitude outside of the eclipse.
-%
-We visually determine turning points in the linearly increasing or decreasing photometric flux, fit straight lines to the selected points, and determine the flux gradient in units of day$^{-1}$.
-%
-A lower bound can be derived for the transverse velocity of the dust, $v$, by measuring the gradient of the light curve and determining what velocity a sharp-edged and completely opaque occulter moving across the disk of the star would need to make the same gradient.
-%
-If the dust is on a circular orbit, it therefore has to be within 16\,au (equivalent to an orbital period of 63 years) around the star. The temperature of sub-micron dust grains at this distance would be in the range 100-200\,K.
-
-\subsubsection*{Dust properties from optical colors}
-
-As is clear from Figure \ref{fig:eclipse_overview}, the photometry shows deeper absorption at bluer wavelengths compared to redder wavelengths.
-%
-This wavelength dependent absorption is typical of extinction due to particles with a characteristic size similar to or smaller than that of the observed wavelengths.
-%
-The differences are quantified in Extended Data Figure \ref{fig:blueing}, which shows the \gls{aavso} $V$ magnitude as a function of $BVI$ photometric colors.
-%
-For both $B-V$ and $V-I$ the color becomes redder as the star dims, and the reddening is quantified here by the total to selective extinction ratio $A_\lambda/A_V$ (dashed lines).
-%
-The values are similar to those seen for interstellar extinction \cite{1989ApJ...345..245C}, indicating that the dimming is caused by sub-micron sized dust \cite{1977ApJ...217..425M,2001ApJ...548..296W}.
-%
-A further constraint from the colors relates to scattering; in protoplanetary disk systems that undergo dimming (for example, UX~Ori types) the color initially reddens with dimming, but moves back towards the stellar color when the dimming is more than one or two magnitudes \cite[e.g.][]{1994AJ....108.1906H}.
-%
-This `blueing' is typically interpreted as the relative increase in dust-scattered starlight from the disk or envelope as the star itself fades \cite{1988SvAL...14...27G}.
-%
-This behaviour is also seen in Extended Data Figure \ref{fig:blueing}, where $B-V$ shows marked blueing, while $V-I$ does not.
-%
-The solid lines show an extinction model where an underlying scattered light component with the same color as the star has been added; as the star dims it reddens, but will eventually return to the stellar color.
-%
-This happens more quickly for $B-V$ because nearly all of the stellar flux in $B$ is blocked, and is less pronounced for $V-I$ because the star is substantially less dimmed in $I$.
-%
-The fraction of scattered light is relatively large at 7.5\%, implying an important complex of small dust around the star by the time the deepest parts of the optical transit occur.
-%
-This high fraction suggests that the impact occurred a substantial fraction of an orbit before the optical transit, thus allowing the dust complex time to spread around the star.
-
-\subsection*{Dust mass estimates}
-
-The  \gls{sed} in Extended Data Figure \ref{fig:sed} gives an estimate of the infrared flux that would arise from dust thrown off in the putative collision.
-%
-We assume that the collision occurred at of order 10\,au from the star, and hence that a dust temperature of 100\,K is reasonable.
-%
-Here 1\% of the mass of a 20\,$\mathrm{M_{Earth}}$ planet is assumed to be converted entirely into \SI{0.1}{\micro\metre}-sized grains; this is an optimistic assumption given that the total mass thrown off in collisions is on the order of 1\% or less \citep{2012ApJ...745...79L} and that this ejected mass is constituted of bodies of a range of sizes and all the mass is not present as dust.
-%
-The dust spectrum in Extended Data Figure \ref{fig:sed} is approximated as a blackbody multiplied by $0.01 \times (10 / \lambda)^{1.5}$ (with $\lambda$ in \SI{}{\micro\metre}), based on the absorption efficiency for silicates \citep{1993ApJ...402..441L}.
-%
-Changing the grain size to 1\,$\mu$m yields a similar dust spectrum; while the dust emitting area is less, these grains emit more efficiently.
-%
-Thus, the mass in small grains detectable with \gls{alma} is about 0.2\,$M_{\rm Earth}$.
-%
-The dust spectrum lies well below the \gls{wise} measurements, and just below the \gls{alma} measurement. %
-Even in this optimistic case, thermal emission from dust thrown off in the collision is therefore not necessarily easily detected.
-%
-This difference is one of surface area; at 600\,pc, thousands of square au of 100\,K dust is needed for a thermal detection with \gls{alma}, but only a small fraction of a square au is needed to significantly dim a star (which has radius approximately 0.005\,au).
-
-\subsection*{Alternative explanations for the observations}
-
-We consider three possible scenarios to explain the observations: (1) The initial brightening and later eclipse are two unrelated phenomena;
-%
-(2) the infrared emission and optical transit are both produced by a debris disk at about 0.1 au;
-%
-(3) we are observing the aftermath of a collision between super-Earths or mini Neptunes at at a semi-major axis of several au (see Extended Data Figure~\ref{fig:hypothesis}).
-%
-We provide here some more detail on the failures of the first two, and a preliminary simulation illustrating how an impact between two large bodies can produce a large object as proposed for our preferred scenario. 
-
-First, the infrared flux increase and the optical dimming might be unrelated, coincidental phenomena. 
-%
-For example, one debris disk at 0.1~au passively heated to 1000\,K producing the infrared emission and another disk further from the star that transited \asas.
-%
-This explanation is unsatisfactory because both infrared flux increases and dimming events are rare.
-%
-Mid-infrared excesses are exceptionally rare among main-sequence stars \cite[1:10,000,][]{2013MNRAS.433.2334K}, and still uncommon for young stars \cite[1:100,][]{2013MNRAS.433.2334K}, and no star has previously shown a sizeable increase starting from no excess.
-%
-A single case of a disappearing mid-infrared excess has been seen, which remains largely unexplained \cite{2012Natur.487...74M}.
-%
-Similarly, optical dimming events are rare for main-sequence stars, for example only one was seen to undergo dust-related optical dimming with Kepler main mission, which observed 150,000 stars for four years \cite{2016MNRAS.457.3988B}.
-%
-Both optical and infrared variability are independently less than 1\% probabilities for a given star, so for \asas~to show both by chance is at best a 0.01\% probability, and probably much lower.
-
-Another possibility is that both the infrared and optical features are produced by a single debris disk at about 0.1\,au from the star.
-%
-At such a close distance, any dust clumps would initially produce periodic eclipses on the timescale of days \citep{2019MNRAS.488.4465G} before being sheared into an azimuthally symmetric structure in months, so the occultation of the star would need to be be related to changes in the vertical structure of a near edge-on post-collision disk, for example by dynamical `stirring' of debris by impact remnants \cite{1992Icar...96..107I}.
-%
-The optical depth of the disk must then decrease due to ongoing collisional depletion to explain the slow return to pre-transit levels of optical flux and gradual decrease in infrared flux.
-%
-Three issues with this model are that (1) the disk must have precisely the right geometry to slowly occult the star as the scale height increased, and must coincidentally become optically thin; (2) there is no apparent change in dust temperature, which would be expected as the optical depth decreases and the warmer inner disk becomes visible; and (3) notable optical variation is seen three years after the putative collision, so any initially created clumps would already have sheared out.
-%
-Newer clumps must contribute on the order of 50\% of the dust area to explain the large variations around MJD 59500 but the infrared flux shows a gradual decline rather than any strong variation that would be associated with clump creation.
-%
-A fourth, but less critical, issue is that the inferred clump velocities are not as high as they could be for transiting structures at 0.1\,au, which should result in transverse velocities of up to 100\,km\,s$^{-1}$.
-
-\subsection*{SPH collision simulations}
-
-To provide some more insight into the collision scenario, we performed impact simulations using the SWIFT smoothed particle hydrodynamics (SPH) code \cite{Schaller2016,Schaller2018,Kegerreis2019}.
-%
-Extended Data Figure \ref{fig:SPH} shows a collision between two 25~$\mathrm{M_{Earth}}$ planets at 45.77~km~s$^{-1}$ (1.4~$v_{\rm esc}$, escape velocity neglecting the atmosphere) at an impact parameter of 0.4 (an impact angle of 23.6$^\circ$).
-%
-The colliding bodies were 22.5\% rock \cite[forsterite,][]{Stewart2019forsteriteEOS,Stewart2020_key_req_EOS}, 67.5\% water \cite{Senft2008}, and 10\% H/He \cite{Hubbard1980} by mass.
-%
-2.1$\times10^6$ particles were used in the simulation.
-%
-To make simulations with high resolution numerically tractable, SWIFT imposes a maximum smoothing length that, in effect, imposes a minimum density for particles in the simulation ($\sim30$~kg~m$^{-3}$ for the simulation shown here). 
-%
-The bound post-impact material is spread over hundreds of Earth radii following the collision, illustrating that giant impacts can produce very large post-impact objects. 
-
-However, for the massive and highly extended bodies produced by collisions between super-Earths and mini-Neptunes, a large fraction of the post-impact body is at the minimum density (green particles in lower right panel in Figure~\ref{fig:SPH}).
-%
-SPH simulations therefore likely underestimate the extent of such post-impact bodies, and further work is needed to fully quantify the size of post-impact bodies produced in different impacts.
-
-\subsection*{Post-impact body cooling calculations}
-
-How the emission from a post-impact body would evolve with time is highly dependent on the initial mass distribution and thermal state of the body, and the balance between radiative cooling, viscous spreading, and mass and angular momentum transport by condensates \cite{Lock2017,Lock18,Lock2020}. 
-%
-Given the limitations of SPH simulations (see above) it is not possible to accurately determine the initial structure of post-impact bodies in the relevant regime.
-%
-To explore a range of possible evolution pathways, we have calculated the evolution of post-impact bodies with different power-law surface density profiles, $\Sigma$, under the limiting case that radiative cooling and condensation of the vapor is the single driver for evolution of the structure. 
-%
-We chose a power-law surface-density profile as it can straightforwardly cover the wide range of surface-density profiles expected after super-Earth/mini-Neptune collisions, based on those found in impact simulations between lower-mass, terrestrial bodies \cite{Lock2017,Canup2001,Canup2012,Cuk2012,Rufu2017,Reufer2012}. 
-%
-The surface density profile is given by:
-%
-\begin{equation}
-\Sigma=\begin{cases}
-\Sigma_0, & \text{if } r_{xy}\leq R_{\rm c}\\
-\alpha r_{xy}^{\beta}, & \text{if } R_{\rm c} < r_{xy}\leq R_{\rm emit}\\
-0, & \text{if } r_{xy}> R_{\rm emit}
-\end{cases}   
-\label{eqn:sigma}
-\end{equation}
-%
-in which $r_{xy}$ is the distance from the rotation axis; $R_{\rm c}$ is the outer radius of a constant surface density central region, roughly analogous to the corotating regions seen in Earth-mass synestias \cite{Lock2017,Lock18}; $\Sigma_0$ is the surface density of the central region; $\beta$ is the power-law exponent; and $R_{\rm emit}$ is the initial emitting radius. Imposing surface density continuity gives:
-%
-\begin{equation}
-    \alpha=\Sigma_0 R_{\rm c}^{-\beta} \; .
-\end{equation}
-%
-We can determine $\Sigma_0$ by fixing the mass of the body
-%
-\begin{equation}
-    M_{\rm p} = \int_0^{R_{\rm c}}{2 \pi r'_{xy} \Sigma_0 dr'_{xy}} + \int_{R_{\rm c}}^{R_{\rm emit}}{2 \pi r'_{xy} \Sigma(r'_{xy}) dr'_{xy}} \; ,
-\end{equation}
-%
-which can be solved to give:
-%
-\begin{equation}
-\Sigma_0=\begin{cases}
-\frac{M_{\rm p}}{\pi \left [R_{\rm c}^2 + 2 R_{\rm c}^{-\beta} \left ( \ln{R_{\rm emit}}-\ln{R_{\rm c}}\right ) \right ]}, & \text{if } \beta=-2,\\
-\frac{M_{\rm p}}{\pi \left [R_{\rm c}^2 + \frac{2 R_{\rm c}^{-\beta}}{\beta+2} \left ( R_{\rm emit}^{\beta+2}-R_{\rm c}^{\beta+2}\right ) \right ]}, & \text{otherwise.} 
-\end{cases}
-\end{equation}
-%
-The time taken for a given region of the structure to cool to the point that a sufficient fraction of material is condensed for the temperature to drop below the condensation-buffer (see above) -- and thus for the emitted flux to drop -- is given by
-%
-\begin{equation}
-    t_{\rm cool} (r_{xy})=\frac{l f(r_{xy}) \Sigma(r_{xy})}{\sigma T^4_{\rm emit}}
-\end{equation}
-%
-where $f$ is the initial vapor fraction at that radius, $l$ is the latent heat of vaporization of the material (here we have taken the limiting case of pure water $l=2.256\times 10^6$ \cite{Chase1998}, but the addition of silicates could make the latent heat much larger), $\sigma$ is the Stefan–Boltzmann constant, and $T_{\rm emit}$ is the emission temperature.
-%
-Figure~\ref{fig:Hill_Bondi_R} shows example evolutions of the emission from a post-impact body using this model for different parameters (solid lines).
-%
-Results of a modified model where the initial surface density (by the addition of a constant parameter to Equation~\ref{eqn:sigma}) is forced to be zero at $R_{\rm emit}$ are shown as dashed lines.
-
-
-
-% \makeatletter
-% \apptocmd{\thebibliography}{\global\c@NAT@ctr 30\relax}{}{}
-% \makeatother
-
-% \begin{thebibliography}{10}
-% \expandafter\ifx\csname url\endcsname\relax
-%   \def\url#1{\burl{#1}}\fi
-% \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
-% \providecommand{\bibinfo}[2]{#2}
-% \providecommand{\eprint}[2][]{\url{#2}}
-% \providecommand{\doi}[1]{\url{https://doi.org/#1}}
-% \bibcommenthead
-
-
-% \bibitem{2019MNRAS.488.3588Y}
-% \bibinfo{author}{{Yelverton}, B.}, \bibinfo{author}{{Kennedy}, G.~M.},
-%   \bibinfo{author}{{Su}, K. Y.~L.} \& \bibinfo{author}{{Wyatt}, M.~C.}
-% \newblock \bibinfo{title}{{A statistically significant lack of debris discs in
-%   medium separation binary systems}}.
-% \newblock \emph{\bibinfo{journal}{\mnras}} \textbf{\bibinfo{volume}{488}},
-%   \bibinfo{pages}{3588--3606} (\bibinfo{year}{2019}).
-
-% \bibitem{2013MNRAS.428.1263B}
-% \bibinfo{author}{{Booth}, M.} \emph{et~al.}
-% \newblock \bibinfo{title}{{Resolved debris discs around A stars in the Herschel
-%   DEBRIS survey}}.
-% \newblock \emph{\bibinfo{journal}{\mnras}} \textbf{\bibinfo{volume}{428}},
-%   \bibinfo{pages}{1263--1280} (\bibinfo{year}{2013}).
-
-% \bibitem{2015MNRAS.454.3207P}
-% \bibinfo{author}{{Pawellek}, N.} \& \bibinfo{author}{{Krivov}, A.~V.}
-% \newblock \bibinfo{title}{{The dust grain size-stellar luminosity trend in
-%   debris discs}}.
-% \newblock \emph{\bibinfo{journal}{\mnras}} \textbf{\bibinfo{volume}{454}},
-%   \bibinfo{pages}{3207--3221} (\bibinfo{year}{2015}).
-
-% \bibitem{Brown21}
-% \bibinfo{author}{{Gaia Collaboration}} \emph{et~al.}
-% \newblock \bibinfo{title}{{Gaia Early Data Release 3. Summary of the contents
-%   and survey properties}}.
-% \newblock \emph{\bibinfo{journal}{\aap}} \textbf{\bibinfo{volume}{649}},
-%   \bibinfo{pages}{A1} (\bibinfo{year}{2021}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2021A&A...649A...1G}.
-
-% \bibitem{BailerJones21}
-% \bibinfo{author}{{Bailer-Jones}, C.~A.~L.}, \bibinfo{author}{{Rybizki}, J.},
-%   \bibinfo{author}{{Fouesneau}, M.}, \bibinfo{author}{{Demleitner}, M.} \&
-%   \bibinfo{author}{{Andrae}, R.}
-% \newblock \bibinfo{title}{{Estimating Distances from Parallaxes. V. Geometric
-%   and Photogeometric Distances to 1.47 Billion Stars in Gaia Early Data Release
-%   3}}.
-% \newblock \emph{\bibinfo{journal}{\aj}} \textbf{\bibinfo{volume}{161}},
-%   \bibinfo{pages}{147} (\bibinfo{year}{2021}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2021AJ....161..147B}.
-
-% \bibitem{Cutri03}
-% \bibinfo{author}{{Cutri}, R.~M.} \emph{et~al.}
-% \newblock \bibinfo{title}{{2MASS All-Sky Catalog of Point Sources (Cutri+
-%   2003)}}.
-% \newblock \emph{\bibinfo{journal}{VizieR Online Data Catalog}}
-%   \textbf{\bibinfo{volume}{2246}}, \bibinfo{pages}{0} (\bibinfo{year}{2003}).
-% \newblock \urlprefix\url{http://adsabs.harvard.edu/abs/2003yCat.2246....0C}.
-
-% \bibitem{2015AAS...22533616H}
-% \bibinfo{author}{{Henden}, A.~A.}, \bibinfo{author}{{Levine}, S.},
-%   \bibinfo{author}{{Terrell}, D.} \& \bibinfo{author}{{Welch}, D.~L.}
-% \newblock \emph{\bibinfo{title}{{APASS - The Latest Data Release}}}, Vol.
-%   \bibinfo{volume}{225} of \emph{\bibinfo{series}{American Astronomical Society
-%   Meeting Abstracts}}, \bibinfo{pages}{336.16} (\bibinfo{year}{2015}).
-
-% \bibitem{2013ApJS..208....9P}
-% \bibinfo{author}{{Pecaut}, M.~J.} \& \bibinfo{author}{{Mamajek}, E.~E.}
-% \newblock \bibinfo{title}{{Intrinsic Colors, Temperatures, and Bolometric
-%   Corrections of Pre-main-sequence Stars}}.
-% \newblock \emph{\bibinfo{journal}{\apjs}} \textbf{\bibinfo{volume}{208}},
-%   \bibinfo{pages}{9} (\bibinfo{year}{2013}).
-
-% \bibitem{pojmanski_all_1997}
-% \bibinfo{author}{Pojmanski, G.}
-% \newblock \bibinfo{title}{The {All} {Sky} {Automated} {Survey}}.
-% \newblock \emph{\bibinfo{journal}{Acta Astronomica}}
-%   \textbf{\bibinfo{volume}{47}}, \bibinfo{pages}{467--481}
-%   (\bibinfo{year}{1997}).
-% \newblock \urlprefix\url{http://adsabs.harvard.edu/abs/1997AcA....47..467P}.
-
-% \bibitem{asas_2005}
-% \bibinfo{author}{{Pojmanski}, G.}
-% \newblock \bibinfo{title}{{VizieR Online Data Catalog: All Sky Automated Survey
-%   Catalog (Pojmanski+, 2000)}}.
-% \newblock \emph{\bibinfo{journal}{VizieR Online Data Catalog (other)}}
-%   \textbf{\bibinfo{volume}{0050}}, \bibinfo{pages}{J/other/AcA/50}
-%   (\bibinfo{year}{2005}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2005yCatp005005001P}.
-
-% \bibitem{asas_2018}
-% \bibinfo{author}{{Simon}, J.~D.} \emph{et~al.}
-% \newblock \bibinfo{title}{{VizieR Online Data Catalog: KIC 8462852 ASAS V-band
-%   long-term variability (Simon+, 2018)}}.
-% \newblock \emph{\bibinfo{journal}{VizieR Online Data Catalog}}
-%   \bibinfo{pages}{J/ApJ/853/77} (\bibinfo{year}{2018}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2018yCat..18530077S}.
-
-% \bibitem{Hambsch12}
-% \bibinfo{author}{{Hambsch}, F.-J.}
-% \newblock \bibinfo{title}{{ROAD (Remote Observatory Atacama Desert): Intensive
-%   Observations of Variable Stars}}.
-% \newblock \emph{\bibinfo{journal}{Journal of the American Association of
-%   Variable Star Observers (JAAVSO)}} \textbf{\bibinfo{volume}{40}},
-%   \bibinfo{pages}{1003} (\bibinfo{year}{2012}).
-% \newblock \urlprefix\url{http://adsabs.harvard.edu/abs/2012JAVSO..40.1003H}.
-
-% \bibitem{Tonry18}
-% \bibinfo{author}{{Tonry}, J.~L.} \emph{et~al.}
-% \newblock \bibinfo{title}{{ATLAS: A High-cadence All-sky Survey System}}.
-% \newblock \emph{\bibinfo{journal}{\pasp}} \textbf{\bibinfo{volume}{130}},
-%   \bibinfo{pages}{064505} (\bibinfo{year}{2018}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2018PASP..130f4505T}.
-
-% \bibitem{2015JATIS...1a4003R}
-% \bibinfo{author}{{Ricker}, G.~R.} \emph{et~al.}
-% \newblock \bibinfo{title}{{Transiting Exoplanet Survey Satellite (TESS)}}.
-% \newblock \emph{\bibinfo{journal}{Journal of Astronomical Telescopes,
-%   Instruments, and Systems}} \textbf{\bibinfo{volume}{1}},
-%   \bibinfo{pages}{014003} (\bibinfo{year}{2015}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2015JATIS...1a4003R}.
-
-% \bibitem{mainzer14neowise}
-% \bibinfo{author}{{Mainzer}, A.} \emph{et~al.}
-% \newblock \bibinfo{title}{{Initial Performance of the NEOWISE Reactivation
-%   Mission}}.
-% \newblock \emph{\bibinfo{journal}{\apj}} \textbf{\bibinfo{volume}{792}},
-%   \bibinfo{pages}{30} (\bibinfo{year}{2014}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2014ApJ...792...30M}.
-
-% \bibitem{cutri15}
-% \bibinfo{author}{{Cutri}, R.~M.} \emph{et~al.}
-% \newblock \bibinfo{title}{{Explanatory Supplement to the NEOWISE Data Release
-%   Products}}.
-% \newblock \bibinfo{howpublished}{Explanatory Supplement to the NEOWISE Data
-%   Release Products} (\bibinfo{year}{2015}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2015nwis.rept....1C}.
-
-% \bibitem{2007ASPC..376..127M}
-% \bibinfo{author}{{McMullin}, J.~P.}, \bibinfo{author}{{Waters}, B.},
-%   \bibinfo{author}{{Schiebel}, D.}, \bibinfo{author}{{Young}, W.} \&
-%   \bibinfo{author}{{Golap}, K.}
-% \newblock \bibinfo{editor}{{Shaw}, R.~A.}, \bibinfo{editor}{{Hill}, F.} \&
-%   \bibinfo{editor}{{Bell}, D.~J.} (eds) \emph{\bibinfo{title}{{CASA
-%   Architecture and Applications}}}.
-% \newblock (eds \bibinfo{editor}{{Shaw}, R.~A.}, \bibinfo{editor}{{Hill}, F.} \&
-%   \bibinfo{editor}{{Bell}, D.~J.}) \emph{\bibinfo{booktitle}{Astronomical Data
-%   Analysis Software and Systems XVI}}, Vol. \bibinfo{volume}{376} of
-%   \emph{\bibinfo{series}{Astronomical Society of the Pacific Conference
-%   Series}}, \bibinfo{pages}{127} (\bibinfo{year}{2007}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2007ASPC..376..127M}.
-
-% \bibitem{2020RNAAS...4..204H}
-% \bibinfo{author}{{Huang}, C.~X.} \emph{et~al.}
-% \newblock \bibinfo{title}{{Photometry of 10 Million Stars from the First Two
-%   Years of TESS Full Frame Images: Part I}}.
-% \newblock \emph{\bibinfo{journal}{Research Notes of the American Astronomical
-%   Society}} \textbf{\bibinfo{volume}{4}}, \bibinfo{pages}{204}
-%   (\bibinfo{year}{2020}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2020RNAAS...4..204H}.
-
-% \bibitem{2021RNAAS...5..234K}
-% \bibinfo{author}{{Kunimoto}, M.} \emph{et~al.}
-% \newblock \bibinfo{title}{{Quick-look Pipeline Lightcurves for 9.1 Million
-%   Stars Observed over the First Year of the TESS Extended Mission}}.
-% \newblock \emph{\bibinfo{journal}{Research Notes of the American Astronomical
-%   Society}} \textbf{\bibinfo{volume}{5}}, \bibinfo{pages}{234}
-%   (\bibinfo{year}{2021}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2021RNAAS...5..234K}.
-
-% \bibitem{Bouma23}
-% \bibinfo{author}{{Bouma}, L.~G.}, \bibinfo{author}{{Palumbo}, E.~K.} \&
-%   \bibinfo{author}{{Hillenbrand}, L.~A.}
-% \newblock \bibinfo{title}{{The Empirical Limits of Gyrochronology}}.
-% \newblock \emph{\bibinfo{journal}{arXiv e-prints}}
-%   \bibinfo{pages}{arXiv:2303.08830} (\bibinfo{year}{2023}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2023arXiv230308830B}.
-
-% \bibitem{Kounkel22}
-% \bibinfo{author}{{Kounkel}, M.} \emph{et~al.}
-% \newblock \bibinfo{title}{{Untangling the Galaxy. IV. Empirical Constraints on
-%   Angular Momentum Evolution and Gyrochronology for Young Stars in the Field}}.
-% \newblock \emph{\bibinfo{journal}{\aj}} \textbf{\bibinfo{volume}{164}},
-%   \bibinfo{pages}{137} (\bibinfo{year}{2022}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2022AJ....164..137K}.
-
-% \bibitem{Kennedy17}
-% \bibinfo{author}{{Kennedy}, G.~M.} \emph{et~al.}
-% \newblock \bibinfo{title}{{The transiting dust clumps in the evolved disc of
-%   the Sun-like UXor RZ Psc}}.
-% \newblock \emph{\bibinfo{journal}{Royal Society Open Science}}
-%   \textbf{\bibinfo{volume}{4}}, \bibinfo{pages}{160652} (\bibinfo{year}{2017}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2017RSOS....460652K}.
-
-% \bibitem{1989ApJ...345..245C}
-% \bibinfo{author}{{Cardelli}, J.~A.}, \bibinfo{author}{{Clayton}, G.~C.} \&
-%   \bibinfo{author}{{Mathis}, J.~S.}
-% \newblock \bibinfo{title}{{The Relationship between Infrared, Optical, and
-%   Ultraviolet Extinction}}.
-% \newblock \emph{\bibinfo{journal}{\apj}} \textbf{\bibinfo{volume}{345}},
-%   \bibinfo{pages}{245} (\bibinfo{year}{1989}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/1989ApJ...345..245C}.
-
-% \bibitem{1977ApJ...217..425M}
-% \bibinfo{author}{{Mathis}, J.~S.}, \bibinfo{author}{{Rumpl}, W.} \&
-%   \bibinfo{author}{{Nordsieck}, K.~H.}
-% \newblock \bibinfo{title}{{The size distribution of interstellar grains.}}
-% \newblock \emph{\bibinfo{journal}{\apj}} \textbf{\bibinfo{volume}{217}},
-%   \bibinfo{pages}{425--433} (\bibinfo{year}{1977}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/1977ApJ...217..425M}.
-
-% \bibitem{2001ApJ...548..296W}
-% \bibinfo{author}{{Weingartner}, J.~C.} \& \bibinfo{author}{{Draine}, B.~T.}
-% \newblock \bibinfo{title}{{Dust Grain-Size Distributions and Extinction in the
-%   Milky Way, Large Magellanic Cloud, and Small Magellanic Cloud}}.
-% \newblock \emph{\bibinfo{journal}{\apj}} \textbf{\bibinfo{volume}{548}},
-%   \bibinfo{pages}{296--309} (\bibinfo{year}{2001}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2001ApJ...548..296W}.
-
-% \bibitem{1994AJ....108.1906H}
-% \bibinfo{author}{{Herbst}, W.}, \bibinfo{author}{{Herbst}, D.~K.},
-%   \bibinfo{author}{{Grossman}, E.~J.} \& \bibinfo{author}{{Weinstein}, D.}
-% \newblock \bibinfo{title}{{Catalogue of UBVRI Photometry of T Tauri Stars and
-%   Analysis of the Causes of Their Variability}}.
-% \newblock \emph{\bibinfo{journal}{\aj}} \textbf{\bibinfo{volume}{108}},
-%   \bibinfo{pages}{1906} (\bibinfo{year}{1994}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/1994AJ....108.1906H}.
-
-% \bibitem{1988SvAL...14...27G}
-% \bibinfo{author}{{Grinin}, V.~P.}
-% \newblock \bibinfo{title}{{On the Blue Emission Visible during Deep Minima of
-%   Young Irregular Variables}}.
-% \newblock \emph{\bibinfo{journal}{Soviet Astronomy Letters}}
-%   \textbf{\bibinfo{volume}{14}}, \bibinfo{pages}{27} (\bibinfo{year}{1988}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/1988SvAL...14...27G}.
-
-% \bibitem{2012ApJ...745...79L}
-% \bibinfo{author}{{Leinhardt}, Z.~M.} \& \bibinfo{author}{{Stewart}, S.~T.}
-% \newblock \bibinfo{title}{{Collisions between Gravity-dominated Bodies. I.
-%   Outcome Regimes and Scaling Laws}}.
-% \newblock \emph{\bibinfo{journal}{\apj}} \textbf{\bibinfo{volume}{745}},
-%   \bibinfo{pages}{79} (\bibinfo{year}{2012}).
-
-% \bibitem{1993ApJ...402..441L}
-% \bibinfo{author}{{Laor}, A.} \& \bibinfo{author}{{Draine}, B.~T.}
-% \newblock \bibinfo{title}{{Spectroscopic Constraints on the Properties of Dust
-%   in Active Galactic Nuclei}}.
-% \newblock \emph{\bibinfo{journal}{\apj}} \textbf{\bibinfo{volume}{402}},
-%   \bibinfo{pages}{441} (\bibinfo{year}{1993}).
-
-% \bibitem{2013MNRAS.433.2334K}
-% \bibinfo{author}{{Kennedy}, G.~M.} \& \bibinfo{author}{{Wyatt}, M.~C.}
-% \newblock \bibinfo{title}{{The bright end of the exo-Zodi luminosity function:
-%   disc evolution and implications for exo-Earth detectability}}.
-% \newblock \emph{\bibinfo{journal}{\mnras}} \textbf{\bibinfo{volume}{433}},
-%   \bibinfo{pages}{2334--2356} (\bibinfo{year}{2013}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2013MNRAS.433.2334K}.
-
-% \bibitem{2012Natur.487...74M}
-% \bibinfo{author}{{Melis}, C.} \emph{et~al.}
-% \newblock \bibinfo{title}{{Rapid disappearance of a warm, dusty circumstellar
-%   disk}}.
-% \newblock \emph{\bibinfo{journal}{\nat}} \textbf{\bibinfo{volume}{487}},
-%   \bibinfo{pages}{74--76} (\bibinfo{year}{2012}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2012Natur.487...74M}.
-
-% \bibitem{2016MNRAS.457.3988B}
-% \bibinfo{author}{{Boyajian}, T.~S.} \emph{et~al.}
-% \newblock \bibinfo{title}{{Planet Hunters IX. KIC 8462852 - where's the flux?}}
-% \newblock \emph{\bibinfo{journal}{\mnras}} \textbf{\bibinfo{volume}{457}},
-%   \bibinfo{pages}{3988--4004} (\bibinfo{year}{2016}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2016MNRAS.457.3988B}.
-
-
-% \bibitem{2019MNRAS.488.4465G}
-% \bibinfo{author}{{Gaidos}, E.} \emph{et~al.}
-% \newblock \bibinfo{title}{{Planetesimals around stars with TESS (PAST) - I.
-%   Transient dimming of a binary solar analogue at the end of the planet
-%   accretion era}}.
-% \newblock \emph{\bibinfo{journal}{\mnras}} \textbf{\bibinfo{volume}{488}},
-%   \bibinfo{pages}{4465--4476} (\bibinfo{year}{2019}).
-
-% \bibitem{1992Icar...96..107I}
-% \bibinfo{author}{{Ida}, S.} \& \bibinfo{author}{{Makino}, J.}
-% \newblock \bibinfo{title}{{N-Body simulation of gravitational interaction
-%   between planetesimals and a protoplanet . I. velocity distribution of
-%   planetesimals}}.
-% \newblock \emph{\bibinfo{journal}{\icarus}} \textbf{\bibinfo{volume}{96}},
-%   \bibinfo{pages}{107--120} (\bibinfo{year}{1992}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/1992Icar...96..107I}.
-
-% \bibitem{Schaller2016}
-% \bibinfo{author}{{Schaller}, M.}, \bibinfo{author}{{Gonnet}, P.},
-%   \bibinfo{author}{{Chalk}, A. B.~G.} \& \bibinfo{author}{{Draper}, P.~W.}
-% \newblock \bibinfo{title}{{SWIFT: Using Task-Based Parallelism, Fully
-%   Asynchronous Communication, and Graph Partition-Based Domain Decomposition
-%   for Strong Scaling on more than 100,000 Cores}} (\bibinfo{year}{2016}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2016pasc.conf....2S}.
-
-% \bibitem{Schaller2018}
-% \bibinfo{author}{Schaller, M.} \emph{et~al.}
-% \newblock \bibinfo{title}{{SWIFT}: {SPH} {With} {Inter}-dependent
-%   {Fine}-grained {Tasking}}.
-% \newblock \emph{\bibinfo{journal}{Astrophysics Source Code Library}}
-%   \bibinfo{pages}{ascl:1805.020} (\bibinfo{year}{2018}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2018ascl.soft05020S}.
-% \newblock \bibinfo{note}{ADS Bibcode: 2018ascl.soft05020S}.
-
-% \bibitem{Kegerreis2019}
-% \bibinfo{author}{Kegerreis, J.~A.} \emph{et~al.}
-% \newblock \bibinfo{title}{Planetary giant impacts: {Convergence} of
-%   high-resolution simulations using efficient spherical initial conditions and
-%   {SWIFT}}.
-% \newblock \emph{\bibinfo{journal}{Monthly Notices of the Royal Astronomical
-%   Society}} \textbf{\bibinfo{volume}{487}}, \bibinfo{pages}{5029--5040}
-%   (\bibinfo{year}{2019}).
-% \newblock
-%   \urlprefix\url{https://academic.oup.com/mnras/article/487/4/5029/5513478}.
-% \newblock \bibinfo{note}{Publisher: Narnia}.
-
-% \bibitem{Stewart2019forsteriteEOS}
-% \bibinfo{author}{Stewart, S.~T.} \emph{et~al.}
-% \newblock \bibinfo{title}{Equation of state model
-%   forsterite-{ANEOS}-{SLVTv1}.{0G1}: {Documentation} and comparisons}.
-% \newblock \emph{\bibinfo{journal}{Zenodo}}  (\bibinfo{year}{2019}).
-% \newblock \urlprefix\url{https://zenodo.org/record/3478631#.XyC5AJNKhBw}.
-
-% \bibitem{Stewart2020_key_req_EOS}
-% \bibinfo{author}{Stewart, S.} \emph{et~al.}
-% \newblock \bibinfo{title}{The shock physics of giant impacts: {Key}
-%   requirements for the equations of state}.
-% \newblock \emph{\bibinfo{journal}{AIP Conference Proceedings}}
-%   \textbf{\bibinfo{volume}{2272}}, \bibinfo{pages}{080003}
-%   (\bibinfo{year}{2020}).
-% \newblock \urlprefix\url{https://doi.org/10.1063/12.0000946}.
-
-% \bibitem{Senft2008}
-% \bibinfo{author}{Senft, L.~E.} \& \bibinfo{author}{Stewart, S.~T.}
-% \newblock \bibinfo{title}{Impact crater formation in icy layered terrains on
-%   {Mars}}.
-% \newblock \emph{\bibinfo{journal}{Meteoritics \& Planetary Science}}
-%   \textbf{\bibinfo{volume}{43}}, \bibinfo{pages}{1993--2013}
-%   (\bibinfo{year}{2008}).
-% \newblock
-%   \urlprefix\url{http://doi.wiley.com/10.1111/j.1945-5100.2008.tb00657.x}.
-
-% \bibitem{Hubbard1980}
-% \bibinfo{author}{Hubbard, W.~B.} \& \bibinfo{author}{MacFarlane, J.~J.}
-% \newblock \bibinfo{title}{Structure and evolution of {Uranus} and {Neptune}}.
-% \newblock \emph{\bibinfo{journal}{Journal of Geophysical Research: Solid
-%   Earth}} \textbf{\bibinfo{volume}{85}}, \bibinfo{pages}{225--234}
-%   (\bibinfo{year}{1980}).
-% \newblock
-%   \urlprefix\url{https://agupubs-onlinelibrary-wiley-com.clsproxy.library.caltech.edu/doi/full/10.1029/JB085iB01p00225}.
-% \newblock \bibinfo{note}{Publisher: John Wiley \& Sons, Ltd}.
-
-% \bibitem{Canup2012}
-% \bibinfo{author}{Canup, R.~M.}
-% \newblock \bibinfo{title}{Forming a {Moon} with an {Earth}-like composition via
-%   a giant impact}.
-% \newblock \emph{\bibinfo{journal}{Science}} \textbf{\bibinfo{volume}{338}},
-%   \bibinfo{pages}{1052--1055} (\bibinfo{year}{2012}).
-% \newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/23076098}.
-
-% \bibitem{Cuk2012}
-% \bibinfo{author}{Ćuk, M.} \& \bibinfo{author}{Stewart, S.~T.}
-% \newblock \bibinfo{title}{Making the {Moon} from a fast-spinning {Earth}: {A}
-%   giant impact followed by resonant despinning.}
-% \newblock \emph{\bibinfo{journal}{Science}} \textbf{\bibinfo{volume}{338}},
-%   \bibinfo{pages}{1047--52} (\bibinfo{year}{2012}).
-% \newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/23076099}.
-
-% \bibitem{Rufu2017}
-% \bibinfo{author}{Rufu, R.}, \bibinfo{author}{Aharonson, O.} \&
-%   \bibinfo{author}{Perets, H.~B.}
-% \newblock \bibinfo{title}{A multiple-impact origin for the {Moon}}.
-% \newblock \emph{\bibinfo{journal}{Nature Geoscience}}
-%   \textbf{\bibinfo{volume}{10}}, \bibinfo{pages}{89--94}
-%   (\bibinfo{year}{2017}).
-% \newblock \urlprefix\url{http://www.nature.com/doifinder/10.1038/ngeo2866}.
-% \newblock \bibinfo{note}{Publisher: Nature Research}.
-
-% \bibitem{Reufer2012}
-% \bibinfo{author}{Reufer, A.}, \bibinfo{author}{Meier, M.~M.},
-%   \bibinfo{author}{Benz, W.} \& \bibinfo{author}{Wieler, R.}
-% \newblock \bibinfo{title}{A hit-and-run giant impact scenario}.
-% \newblock \emph{\bibinfo{journal}{Icarus}} \textbf{\bibinfo{volume}{221}},
-%   \bibinfo{pages}{296--299} (\bibinfo{year}{2012}).
-% \newblock \urlprefix\url{http://dx.doi.org/10.1016/j.icarus.2012.07.021}.
-
-% \bibitem{Chase1998}
-% \bibinfo{author}{Chase, M.}
-% \newblock \bibinfo{title}{{NIST}-{JANAF} thermochemical tables, 4th edition}.
-% \newblock \emph{\bibinfo{journal}{Journal of Physical and Chemical Reference
-%   Data}} \bibinfo{pages}{1952} (\bibinfo{year}{1998}).
-% \newblock \urlprefix\url{http://www.aip.org/pubs/books/jpcrd_books.html}.
-% \newblock \bibinfo{note}{ISBN: 1563968312 (set){\textbackslash}n1563968193 (pt.
-%   1){\textbackslash}n1563968207 (p. 2)}.
-
-% \bibitem{Luger2021}
-% \bibinfo{author}{{Luger}, R.} \emph{et~al.}
-% \newblock \bibinfo{title}{{Mapping stellar surfaces III: An Efficient,
-%   Scalable, and Open-Source Doppler Imaging Model}}.
-% \newblock \emph{\bibinfo{journal}{arXiv e-prints}}
-%   \bibinfo{pages}{arXiv:2110.06271} (\bibinfo{year}{2021}).
-% \newblock
-%   \urlprefix\url{https://ui.adsabs.harvard.edu/abs/2021arXiv211006271L}.
-% \end{thebibliography}
-
-
-
-
-
-\paragraph{Data availability}
-The datasets generated and analysed during this study are available in the Zenodo repository at \url{https://doi.org/10.5281/zenodo.8344755}.
-
-\paragraph{Code availability} 
-All the code for the analysis and the generation of all the figures  are available in a showyourwork \citep{Luger2021} reproducible framework available as a git repository at \url{https://github.com/mkenworthy/ASASSN-21qj-collision/}.
-%
-The source code and documentation for the SWIFT open-source simulation code are available from \url{www.swiftsim.com}.
-
-
-
-
-\begin{figure}[h!]
-    \centering
-\includegraphics[width=0.8\textwidth]{figures/sed.pdf}
-    \caption{\textbf{Spectrum of \asas{}~components.} The red symbols show the optical and pre-brightnening \gls{wise} infrared photometry and the blue symbols show the post-brightnening \gls{wise} and \gls{alma} fluxes. Stellar and 1000\,K components consistent with the pre- and post-brightening fluxes are shown. The dashed line shows an estimated cool component spectrum for \SI{0.1}{\micro\metre}-sized grains associated with the transiting dust cloud. Downward triangles are upper limits.
-    %
-    Error bars are shown at $1\sigma$ confidence.
-}
-    \label{fig:sed}
-   \script{fvsr.py}
-\end{figure}
-%
+\subsection*{Stellar rotation and age}
 
 
 \begin{figure}
@@ -1607,6 +768,32 @@ The source code and documentation for the SWIFT open-source simulation code are 
         \script{plot_tess_asas_ls_epochs.py}
     \end{centering}
 \end{figure}
+
+
+TESS data from the Quick-Look Pipeline \cite{2020RNAAS...4..204H,2021RNAAS...5..234K} was retrieved from the MAST archive and is shown in Extended Data Fig. \ref{fig:TESS_lc}.
+%
+The star was observed in sectors 8, 34 and 35.
+%
+The star was observed soon after the infrared brightening, and two sequential sectors some time later.
+
+A periodic signal with a period of approximately 4.3 days is seen with a peak to peak amplitude of 2\% of the mean flux, and the similar period can be seen in the two later sectors but they are overwhelmed with the first signs of debris from the transiting object.
+%
+We carry out a Lomb-Scargle periodogram on S08, and obtain a significant detection of $P=4.43\pm 0.33$ days.
+%
+A similar period is seen at lower significance in the later sectors.
+%
+Aside from a peak at 1\,day, the  strongest peak in the ASAS-SN data has a similar period, at 4.1\,days.
+%
+We attribute this modulation due to star spots on the star rotating in and out of our view, and so we assert that is the rotational period of the star.
+%
+Using this rotational period the gyrochronological age \cite{Bouma23,Kounkel22} is calculated to be $300\pm92$ Myr.
+
+
+% 180 words
+
+
+\subsubsection*{Duration of the eclipse and gradient analysis}
+
 
 \begin{figure*}
 \begin{centering}
@@ -1629,16 +816,35 @@ The source code and documentation for the SWIFT open-source simulation code are 
 \end{centering}
 \end{figure*}
 
+
+Figure \ref{fig:eclipse_overview} shows the optical light curves. The start of the optical eclipse is seen around MJD 59350 in the $g'$ band observations, and returns to pre-eclipse levels by MJD 59850, giving a total eclipse duration of approximately 500 days. The eclipse depth varies as a function of wavelength, which is discussed below.
+%
+The normalisation of the light curves for the ASAS-SN, ATLAS and ALLWISE photometry was by calculating the out of transit flux before MJD 58700.
+%
+The LCOGT and AAVSO photometry was determined by aligning the photometry of the eclipse with the ASAS-SN and ATLAS photometry on a per band basis.
+%
+By treating the linear changes in flux as due to the edges of large dust clouds crossing the disk of the star, and the largest amount of absorption within any of these segments as an estimate for the absorption of the cloud \citep[see equations 4.2 and 4.3 in ][]{Kennedy17}, we can determine a robust lower limit to the transverse velocity of 7.5 km\,s$^{-1}$ for the material moving in front of the star. The method is illustrated in Extended Data Figure~\ref{fig:gradientconvert} and the results over the full optical transit are shown in the lower panel of Figure~\ref{fig:eclipse_overview}.
+%
+We convert the magnitude $M(t)$ at time $t$ to a normalised flux $f(t)=10^{(M(t)-M_0/-2.5)}$ where $M_0$ is the mean magnitude outside of the eclipse.
+%
+We visually determine turning points in the linearly increasing or decreasing photometric flux, fit straight lines to the selected points, and determine the flux gradient in units of day$^{-1}$.
+%
+A lower bound can be derived for the transverse velocity of the dust, $v$, by measuring the gradient of the light curve and determining what velocity a sharp edged and completely opaque occulter moving across the disk of the star would be needed to make the same gradient.
+%
+If the dust is on a circular orbit, it therefore has to be within 16\,au (equivalent to an orbital period of 63 years) around the star. The temperature of sub-micron dust grains at this distance would be approximately 200\,K.
+
+%\subsection*{Dust properties from the colors in the optical} MAX 40 characters
+\subsubsection*{Dust properties from optical colors}
+
+
 \begin{figure}
     \centering
 \includegraphics[width=1\textwidth]{figures/blueing.pdf}
-    \caption{\textbf{Blueing of the $B-V$ color during dimming.}
+    \caption{Blueing of the $B-V$ colour during dimming.
     %
-    Points show \gls{aavso} data, and lines show models.
+    Points show AAVSO data, and lines show models.
     %
-    {\bf a},The $V$ magnitude versus $B-V$ color and {\bf b}, the  $V$ magnitude versus $V-I$ color.
-    %
-    The dashed line is a line of $A_\lambda/A_V$ for the value shown in the legend and the solid line is a model that includes an underlying scattered-light component with $s=7.5$\% of the stellar flux.
+    The dashed line is a line of $A_\lambda/A_V$ for the value shown in the legend in each panel, and the solid line is a model that includes an underlying scattered light component with $s=7.5$\% of the stellar flux.
     %
     Error bars are shown at $1\sigma$ confidence.
 }
@@ -1646,18 +852,115 @@ The source code and documentation for the SWIFT open-source simulation code are 
     \script{blueing.py}
 \end{figure}
 
+
+As is clear from Figure \ref{fig:eclipse_overview} the photometry shows deeper absorption at bluer wavelengths compared to redder wavelengths.
+%
+This wavelength dependent absorption is typical of extinction due to particles with a characteristic size similar to or smaller than that of the observed wavelengths.
+%This difference is an indication that the extinction is caused by particles equal to or smaller than the wavelengths of light.
+%
+The differences are quantified in Extended Data Figure \ref{fig:blueing}, which shows the AAVSO $BVI$ photometric colours as a function of $V$ magnitude.
+%
+For both $B-V$ and $V-I$ the colour becomes redder as the star dims, and the reddening is here quantified by the total to selective extinction ratio $A_\lambda/A_V$ (dashed lines).
+%
+The values are similar to those seen for interstellar extinction \cite{1989ApJ...345..245C}, indicating that the dimming is caused by sub-micron sized dust \cite{1977ApJ...217..425M,2001ApJ...548..296W}.
+%
+A further constraint from the colours relates to scattering; in protoplanetary disk systems that undergo dimming (e.g. UX~Ori types) the colour initially reddens with dimming, but moves back towards the stellar colour when the dimming is more than one or two magnitudes \cite[e.g.][]{1994AJ....108.1906H}.
+%
+This ``blueing'' is typically interpreted as the relative increase in dust-scattered starlight from the disk or envelope as the star itself fades \cite{1988SvAL...14...27G}.
+%
+This behaviour is also seen in Extended Data Figure \ref{fig:blueing}, where $B-V$ shows significant blueing, while $V-I$ does not.
+%
+The solid lines show an extinction model where an underlying scattered light component with the same colour as the star has been added; as the star dims it reddens, but will eventually return to the stellar colour.
+%
+This happens more quickly for $B-V$ because nearly all of the stellar flux in $B$ is blocked, and is less pronounced for $V-I$ because the star is significantly less dimmed in $I$. The fraction of scattered light is relatively large at 7.5\%, implying a significant complex of small dust around the star by the time the deepest parts of the optical transit occur. This high fraction suggests that the impact occurred a significant fraction of an orbit before the optical transit, thus allowing the dust complex time to spread around the star.
+
+\subsection*{Dust mass estimates}
+
+The SED in Extended Data Figure \ref{fig:sed} gives an estimate of the infrared flux that would arise from dust thrown off in the putative collision.
+%
+We assume that the collision occurred at of order 10\,au from the star, and hence that a dust temperature of 100\,K is reasonable.
+%
+Here 1\% of the mass of a 20\,$M_\oplus$ is assumed to be converted entirely into 0.1\,$\mu$m sized grains; this is an optimistic assumption given that the total mass thrown off in collisions is of order 1\% or less \citep{2012ApJ...745...79L}, and that this ejected mass is constituted of bodies of a range of sizes and all the mass is not present as dust.
+%
+The dust spectrum in Extended Data Figure \ref{fig:sed} is approximated as a blackbody multiplied by $0.01 \times (10 / \lambda)^{1.5}$ (with $\lambda$ in $\mu$m), based on the absorption efficiency for silicates \citep{1993ApJ...402..441L}.
+%
+Changing the grain size to 1\,$\mu$m yields a similar dust spectrum; while the dust emitting area is less, these grains emit more efficiently.
+%
+Thus, the mass in small grains detectable with ALMA is about 0.2\,$M_{\rm Earth}$.
+%
+The dust spectrum lies well below the WISE measurements, and just below the ALMA measurement. Even in this optimistic case, thermal emission from dust thrown off in the collision is therefore not necessarily easily detected.
+%
+This difference is one of surface area; at 600\,pc thousands of square au of 100\,K dust is needed for a thermal detection with ALMA, but only a small fraction of a square au is needed to significantly dim a star (which has radius $\sim$0.01\,au).
+
+\subsection*{Alternative explanations for the observations}
+
+We consider three possible scenarios to explain the observations: 1) The initial brightening and later eclipse are two unrelated phenomena.
+%
+2) The infrared emission and optical transit are both produced by a debris disk at $\sim0.1$~au.
+%
+3) We are observing the aftermath of a collision between super-Earths or mini Neptunes at at a semi-major axis of several au (see Figure~\ref{fig:hypothesis}).
+%
+We provide here some more detail on the failures of the first two, and a preliminary simulation illustrating how an impact between two large bodies can produce a large object as hypothesised for our preferred scenario 
+
+
+
 \begin{figure}
     \centering
 \includegraphics[width=1\textwidth]{figures/asassn-21qj-cartoon.pdf}
-    \caption{\textbf{Sketch of the hypothesis for the observations seen towards ASASSN-21qj.}
-    %
-    At $t=0$, the collision occurs, producing a cloud of debris that expands and cools.
-    %
-    Material close to the remnant is heated by its luminosity, generating the 1000\,K infrared emission.
-    %
-    Around 1000 days later, the expanding cloud crosses the line of sight between the star and the Earth, generating the optical light curve.}
+    \caption{Sketch of ASASSN-21qj hypothesis.}
+    % \caption{\textbf{Sketch of the hypothesis for the observations seen towards ASASSN-21qj.}
+    % %
+    % At $t=0$, the collision occurs, producing a cloud of debris that expands and cools.
+    % %
+    % Material close to the remnant is heated by its luminosity, generating the 1000\,K infrared emission.
+    % %
+    % Around 1000 days later, the expanding cloud crosses the line of sight between the star and the Earth, generating the optical light curve.}
     \label{fig:hypothesis}
 \end{figure}
+
+
+
+First, the IR flux increase and the optical dimming might be unrelated, coincidental phenomena. 
+%
+For example, one debris disk at 0.1~au passively heated to 1000\,K producing the IR emission and another disk further from the star that transited \asas.
+%
+This explanation is unsatisfactory because both IR flux increases and dimming events are rare.
+%
+Mid-IR excesses are exceptionally rare among main-sequence stars \cite[1:10,000,][]{2013MNRAS.433.2334K}, and still uncommon for young stars \cite[1:100,][]{2013MNRAS.433.2334K}, and no star has previously shown a sizeable increase starting from no excess. A single case of a disappearing mid-IR excess has been seen, which remains largely unexplained \cite{2012Natur.487...74M}.
+%
+Similarly, optical dimming events are rare for main-sequence stars, for example only one was seen to undergo dust-related optical dimming with Kepler main mission, which observed 150,000 stars for four years \cite{2016MNRAS.457.3988B}.
+%
+Both optical and IR variability are independently less than 1\% probabilities for a given star, so for \asas~to show both by chance is at best a 0.01\% probability, and probably much lower.
+
+Another possibility is that both the IR and optical features are produced by a single debris disk at about 0.1\,au from the star.
+%
+At such a close distance, any dust clumps would initially produce periodic eclipses on the timescale of days \citep{2019MNRAS.488.4465G} before being sheared into an azimuthally symmetric structure in months, so the occultation of the star would need to be be related to changes in the vertical structure of a near edge-on post-collision disk, for example by dynamical ``stirring'' of debris by impact remnants \cite{1992Icar...96..107I}.
+%
+The optical depth of the disk must then decrease due to ongoing collisional depletion to explain the slow return to pre-transit levels of optical flux and gradual decrease in IR flux.
+%
+Three issues with this model are that 1) the disk must have precisely the right geometry to slowly occult the star as the scale height increased, and must coincidentally become optically thin, 2) there is no apparent change in dust temperature, which would be expected as the optical depth decreases and the warmer inner disk becomes visible, and 3) significant optical variation is seen three years after the putative collision, so any initially created clumps would already have sheared out.
+%
+Newer clumps must contribute of order 50\% of the dust area to explain the large variations around 59500\,MJD, but the IR flux shows a gradual decline rather than any strong variation that would be associated with clump creation.
+%
+A fourth, but less critical issue, is that the inferred clump velocities are not as high as they could be for transiting structures at 0.1\,au, which should result in transverse velocities of up to 100\,km\,s$^{-1}$.
+
+\subsection*{SPH collision simulations}
+
+To provide some more insight into the collision scenario, we performed impact simulations using the SWIFT smoothed particle hydrodynamics (SPH) code \cite{Schaller2016,Schaller2018,Kegerreis2019}.
+%
+Extended Data Figure \ref{fig:SPH} shows a collision between two 25~$M_{\rm Earth}$ (Earth-mass) planets at 45.77~km~s$^{-1}$ (1.4~$v_{\rm esc}$, escape velocity neglecting the atmosphere) at an impact parameter of 0.4 (an impact angle of 23.6$^\circ$).
+%
+The colliding bodies were 22.5\% rock \cite[forsterite,][]{Stewart2019forsteriteEOS,Stewart2020_key_req_EOS}, 67.5\% water \cite{Senft2008}, and 10\% H/He \cite{Hubbard1980} by mass.
+%
+2.1$\times10^6$ particles were used in the simulation.
+%
+To make simulations with high resolution numerically tractable, SWIFT imposes a maximum smoothing length that, in effect, imposes a minimum density for particles in the simulation ($\sim30$~kg~m$^{-3}$ for the simulation shown here). 
+%
+The bound post-impact material is spread over hundreds of Earth radii following the collision, illustrating that giant impacts can produce very large post-impact objects. 
+
+However, for the massive and highly extended bodies produced by collisions between super-Earths and mini-Neptunes, a large fraction of the post-impact body is at the minimum density (green particles in lower right panel in Figure~\ref{fig:SPH}).
+%
+SPH simulations therefore likely underestimate the extent of such post-impact bodies, and further work is needed to fully quantify the size of post-impact bodies produced in different impacts.
 
 
 \begin{figure}
@@ -1671,158 +974,121 @@ The source code and documentation for the SWIFT open-source simulation code are 
 \end{figure}
 
 
-\begin{table}
-    \centering
-    \caption{\textbf{Properties of \asas.}}
-    \begin{tabular}{p{1.0\textwidth}}
-      \, \\
-      \end{tabular}
-      \vspace{-1em}
-   \begin{tabular*}{0.7\textwidth}{l @{\extracolsep{\fill}}c}
-   \hline\hline
-Property                               & Value                    \\
-       \hline
-        $\alpha_{ICRS}$, {[}hh mm ss{]}  & 08:15:23.30\footnotemark[1]  \\
-        $\delta_{ICRS}$, {[}dd mm ss{]}  & -38:59:23.3\footnotemark[1]  \\
-        $\mu_{\alpha}$ {[}mas yr$^{-1}${]}     & $-9.692\pm0.012$\footnotemark[1]   \\
-        $\mu_{\delta}$ {[}mas yr$^{-1}${]}     & $7.349\pm0.012$\footnotemark[1]  \\
-        $\varpi$ {[}mas{]}                     & $1.763\pm0.011$\footnotemark[1]   \\
-        RV {[}km s$^{-1}${]}                   & $25.8\pm3$\footnotemark[1] \\
-        Distance {[}pc{]}                      & $567.2^{+6.7}_{-5.9}$\footnotemark[2] \\ 
-       \hline
-        $G$ {[}mag{]}                          & $13.371\pm 0.003$\footnotemark[1]  \\
-        $G_{BP}$ {[}mag{]}                     & $13.697\pm 0.003$\footnotemark[1]    \\
-        $G_{RP}$ {[}mag{]}                     & $12.882\pm 0.004$\footnotemark[1]   \\
-        $G_{BP}-G_{RP}$ {[}mag{]}              & $0.815\pm 0.005$\footnotemark[1]         \\
-        $J$ {[}mag{]}                          & $>12.07$\footnotemark[3]   \\
-        $H$ {[}mag{]}                          & $12.03\pm0.04$\footnotemark[3]    \\
-        $K_s$ {[}mag{]}                          & $11.99\pm0.04$\footnotemark[3]    \\
-        $B$ (AB) {[}mag{]}                     & $14.16\pm0.06$\footnotemark[4]     \\
-        $V$ (AB) {[}mag{]}                     & $13.48\pm0.03$\footnotemark[4]   \\
-        $g'$ (AB) {[}mag{]}                     & $13.77\pm0.03$\footnotemark[4]  \\
-        $r'$ (AB) {[}mag{]}                     & $13.29\pm0.03$\footnotemark[4]     \\
-        $i'$ (AB) {[}mag{]}                     & $13.20\pm0.08$\footnotemark[4]   \\
-       \hline
-%         $M_*$ [$M_{\odot}$]                    & $0.85\pm0.02$  \\
-        \teff{} [K]                            & $5760\pm10$\footnotemark[1]  \\
-        {[}Fe/H{]} [dex]                       & $-0.23\pm0.01$\footnotemark[1] \\
-        log\,$g$ [log$_{10}$ cm\,s$^{-2}$]     & $4.339\pm0.005$\footnotemark[1]  \\
-        $R_\star$ [\rsun{}]                        & $1.04$\footnotemark[5] \\
-        log($L_{bol}/L_{\odot}$) [dex]         & $0.033$\footnotemark[5] \\
-        $m_{bol}$ [mag]                        & $13.49\pm0.02$\footnotemark[6] \\
-        $E(G_{BP}-G_{RP})$ {[}mag{]}           & $0.01 \pm 0.005$\footnotemark[6]    \\
-        Age [Myr]                              & $300\pm92$\footnotemark[7] \\
-        
-       \hline
-   \end{tabular*}
-   {\footnotesize
-   \footnotetext[1]{Gaia DR3 \cite{Brown2023}, coordinates are J2000 at epoch 2000.0.}
-   \footnotetext[2]{\cite{BailerJones21}}
-   \footnotetext[3]{2MASS \cite{Cutri03}, $J$ is an upper limit and $H$ and $K_s$ are flagged as contaminated.}
-   \footnotetext[4]{APASS \cite{2015AAS...22533616H}, this photometry includes a nearby star.}
-   \footnotetext[5]{Estimated from an \gls{sed} fit fixed to Gaia properties.}
-   \footnotetext[6]{Estimated using mean stellar properties \cite{2013ApJS..208....9P}.}
-   \footnotetext[7]{Estimated using rotation period.}
-    }
-\label{tab:Stellarprop}
-\end{table}
 
+\subsection*{Post-impact body cooling calculations}
 
-\begin{table}
-    \centering
-    \caption{\textbf{Photometric observations of ASASSN-21qj.}}
-    \begin{tabular}{p{1.0\textwidth}}
-      \, \\
-      \end{tabular}
-      \vspace{-1em}
-   \begin{tabular*}{0.7\textwidth}{l @{\extracolsep{\fill}}cc}
-   \hline\hline
-Survey name  & Filter & Number of points                    \\
-       \hline
-ASASSN   &  $V$   & 758 \\
-  &  $g'$   & 3225 \\
-       \hline
-\gls{atlas} & $c$ & 161 \\
-& $o$ & 677 \\
-       \hline
-\gls{aavso}   &  $B$   & 729 \\    % 601 in RVC
-  &  $I$   & 728 \\    % 612 in RVC
-  &  $V$   & 722 \\    % 599 in RVC
-       \hline
-\gls{lcogt}   &  $g$   & 275 \\    % RVC
-  &  $r$   & 224 \\    % RVC
-  &  $i$   & 168 \\    % RVC
-       \hline
-\gls{neowise} & $W1$ & 18 \\
-& $W2$ & 18 \\
-       \hline
-   \end{tabular*}
-
-\vspace{1em}
-The number of points are listed per survey and filter.
+How the emission from a post-impact body would evolve with time is highly dependent on the initial mass distribution and thermal state of the body, and the balance between radiative cooling, viscous spreading, and mass and angular momentum transport by condensates \cite{Lock2017,Lock2018moon,Lock2020}. 
 %
-This is the count after initial rejection of photometric points with notably large error bars.
+Given the limitations of SPH simulations (see above) it is not possible to accurately determine the initial structure of post-impact bodies in the relevant regime.
 %
-Further photometric points may have been rejected in the differeny analysis steps.
+To explore a range of possible evolution pathways, we have calculated the evolution of post-impact bodies with different power-law surface density profiles, $\Sigma$, profiles, under the limiting case that radiative cooling and condensation of the vapor is the single driver for evolution of the structure. 
 %
-The \gls{road} observations constitute the majority of observations from the \gls{aavso} data sets.
+We chose a power-law surface density profile as it can straightforwardly cover the wide range of surface density profiles expected after super-Earth/mini-Neptune collisions, based on that found in impact simulations between lower-mass, terrestrial bodies \cite{Lock2017,Canup2001,Canup2012,Cuk2012,Rufu2017,Reufer2012}. 
+%
+The surface density profile is given by:
+%
+\begin{equation}
+\Sigma=\begin{cases}
+\Sigma_0, & \text{if } r_{xy}\leq R_{\rm c}\\
+\alpha r_{xy}^{\beta}, & \text{if } R_{\rm c} > r_{xy}\leq R_{\rm emit}\\
+0, & \text{if } r_{xy}> R_{\rm emit}
+\end{cases}   
+\label{eqn:sigma}
+\end{equation}
+%
+where: $r_{xy}$ is the distance from the rotation axis; $R_{\rm c}$ is the outer radius of a constant surface density central region, roughly analogous to the corotating regions seen in Earth-mass synestias \cite{Lock2017,Lock2018moon}; $\Sigma_0$ is the surface density of the central region; $\beta$ is the power law exponent; and $R_{\rm emit}$ is the initial emitting radius. Imposing surface density continuity gives
+%
+\begin{equation}
+    \alpha=\Sigma_0 R_{\rm c}^{-\beta} \; .
+\end{equation}
+%
+We can determine $\Sigma_0$ by fixing the mass of the body, 
+%
+\begin{equation}
+    M_{\rm p} = \int_0^{R_{\rm c}}{2 \pi r'_{xy} \Sigma_0 dr'_{xy}} + \int_{R_{\rm c}}^{R_{\rm emit}}{2 \pi r'_{xy} \Sigma(r'_{xy}) dr'_{xy}} \; ,
+\end{equation}
+%
+which can be solved to give:
+%
+\begin{equation}
+\Sigma_0=\begin{cases}
+\frac{M_{\rm p}}{\pi \left [R_{\rm c}^2 + 2 R_{\rm c}^{-\beta} \left ( \ln{R_{\rm emit}}-\ln{R_{\rm c}}\right ) \right ]}, & \text{if } \beta=-2,\\
+\frac{M_{\rm p}}{\pi \left [R_{\rm c}^2 + \frac{2 R_{\rm c}^{-\beta}}{\beta+2} \left ( R_{\rm emit}^{\beta+2}-R_{\rm c}^{\beta+2}\right ) \right ]}, & \text{otherwise.} 
+\end{cases}
+\end{equation}
+%
+The time taken for a given region of the structure to cool to the point that a sufficient fraction of material is condensed for the temperature to drop below the condensation-buffer (see above) and so the emitted flux to drop is given by
+%
+\begin{equation}
+    t_{\rm cool} (r_{xy})=\frac{l f(r_{xy}) \Sigma(r_{xy})}{\sigma T^4_{\rm emit}}
+\end{equation}
+%
+where $f$ is the initial vapor fraction at that radius, $l$ is the latent heat of vaporization of the material (here we have taken the limiting case of pure water $l=2.256\times 10^6$ \cite{Chase1998}, but the addition of silicates could make the latent heat much larger), $\sigma$ is the Stefan–Boltzmann constant, and $T_{\rm emit}$ is the emission temperature. Figure~\ref{fig:Hill_Bondi_R} shows example evolutions of the emission from a post-impact body using this model for different parameters (solid lines). Results of a modified model where the initial surface density (by the addition of a constant parameter to Equation~\ref{eqn:sigma}) is forced to be zero at $R_{\rm emit}$ are shown as dashed lines.
 
-\label{tab:photometry}
-\end{table}
 
-\clearpage
+%TC:ignore
+
+
 \bmhead{Acknowledgments}
 
 %Acknowledgments are not compulsory. Where included they should be brief. Grant or contribution numbers may be acknowledged.
-G.K is supported by the Royal Society as a Royal Society University Research Fellow.
+G.M.K is supported by the Royal Society as a Royal Society University Research Fellow.
 %
-S.J.L. acknowledges funding from the UK Natural Environment Research Council (grant NE/V014129/1).
+S. J. L. acknowledges funding from the UK Natural Environment Research Council (grant NE/V014129/1).
 %
 L.C. acknowledges funding from the European Union H2020-MSCA-ITN-2019 under Grant Agreement no. 860470 (CHAMELEON)
 %
-J.D. acknowledges funding support from the Chinese Scholarship Council (No. 202008610218). Giant impact simulations were carried out using the Isambard 2 UK National Tier-2 HPC Service (http://gw4.ac.uk/isambard/) operated by GW4 and the UK Met Office, and funded by EPSRC (EP/T022078/1).
+J. D. acknowledges funding support from the Chinese Scholarship Council (No. 202008610218). Giant impact simulations were carried out using the Isambard 2 UK National Tier-2 HPC Service (http://gw4.ac.uk/isambard/) operated by GW4 and the UK Met Office, and funded by EPSRC (EP/T022078/1).
 %
-We thank K. Stanek and the work of the \gls{asassn} team with their survey and for providing public access to the database.
+We thank Krzysztof Stanek and the work of the ASAS-SN team with their survey and for providing public access to the database.
 %
 Part of this research was carried out at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the National Aeronautics and Space Administration (80NM0018D0004).
 
 \bmhead{Authors' contributions}
-M.K. led the writing of the paper, management, obtaining the optical observations, and initial models.
+MAK led the writing of the paper, management, obtaining the optical observations, and initial models.
 %
-S.L. led the afterglow modelling and theory.
+SL led the afterglow modelling and theory.
 %
-G.K. led the orbital analysis and dust analysis.
+GMK led the orbital analysis and dust analysis.
 %
-R.v.C. carried out the optical-light-curve data reduction and reddening analysis and velocity-constraint analysis.
+RvC did the optical light curve data reduction and reddening analysis and velocity constraint analysis.
 %
-E.M. performed the analysis of the properties of the star.
+EM performed the analysis of the properties of the star.
 %
-F.-J.H. and E.G. carried out optical monitoring of the star.
+F.-J.H and EG carried out optical monitoring of the star.
 %
-J.M., A.M., J.D.K. and A.S. were responsible for \gls{neowise} identification and data reduction.
+JM, AM, JDK and AS were responsible for NEOWISE identification and data reduction.
 %
-S.L., L.C., J.D., P.T. and Z.L. provided discussion on the ejected material and subsequent evolution.
+SL, LC, JD, PT and ZL provided discussion on the ejected material and subsequent evolution.
 %
-J.D. performed the SPH impact simulations.
+JD performed the SPH impact simulations.
 %
-H.B., S.C., O.G., P.L.D., L.M. and P.T. were responsible for the observation and reduction of observational data.
+HB, SC, OG, PLD, LM and PT were responsible for the observation and reduction of observational data.
 %
-M.R.S. led the discovery of the optical dimming of the star.
+MRS led the discovery of the optical dimming of the star.
 %
 All co-authors assisted with manuscript writing and proofreading.
 
 \bmhead{Competing interests} The authors declare no competing interests.
 
+\bmhead{Availability of data and materials}
+The data sets generated and analysed during the current study are available in the Zenodo repository XXXX CHANGE TO FINAL ZENODO PLACE ON ACCEPTANCE \url{https://sandbox.zenodo.org/record/1180221}
 
-\paragraph{Additional information}
-\vspace{-0.5ex}
+\bmhead{Code availability} 
+All the code for the analysis and the generation of all the figures  are available in a showyourwork \citep{Luger2021} reproducible framework available as a git repository on github. \url{https://github.com/mkenworthy/ASASSN-21qj-debris/}. The source code and documentation for the SWIFT open-source simulation code is available from \url{www.swiftsim.com}.
+
+%\bmhead{Supplementary information}
+%Supplementary Information is available for this paper.
+
 \bmhead{Correspondence and requests for materials}
 should be addressed to Matthew Kenworthy.
-\vspace{-1.5ex}
-\bmhead{Peer review information} 
-\textit{Nature} thanks Kate Su and the other, anonymous, reviewer(s) for their contribution to the peer review of this work.
-\vspace{-1.5ex}
+
 \bmhead{Reprints and permissions information} is available at http://www.nature.com/reprints.
-\bibliography{bib}
+\newpage
+
+\bibliography{bib}% common bib file
+
 
 \end{document}
+
+
