@@ -958,7 +958,7 @@ How the emission from a post-impact body would evolve with time is highly depend
 %
 Given the limitations of SPH simulations (see above) it is not possible to accurately determine the initial structure of post-impact bodies in the relevant regime.
 %
-To explore a range of possible evolution pathways, we have calculated the evolution of post-impact bodies with different power-law surface density profiles, $\Sigma$, profiles, under the limiting case that radiative cooling and condensation of the vapor is the single driver for evolution of the structure. 
+To explore a range of possible evolution pathways, we have calculated the evolution of post-impact bodies with different power-law surface density profiles, $\Sigma$, under the limiting case that radiative cooling and condensation of the vapor is the single driver for evolution of the structure. 
 %
 We chose a power-law surface density profile as it can straightforwardly cover the wide range of surface density profiles expected after super-Earth/mini-Neptune collisions, based on that found in impact simulations between lower-mass, terrestrial bodies \cite{Lock2017,Canup2001,Canup2012,Cuk2012,Rufu2017,Reufer2012}. 
 %
@@ -967,7 +967,7 @@ The surface density profile is given by:
 \begin{equation}
 \Sigma=\begin{cases}
 \Sigma_0, & \text{if } r_{xy}\leq R_{\rm c}\\
-\alpha r_{xy}^{\beta}, & \text{if } R_{\rm c} > r_{xy}\leq R_{\rm emit}\\
+\alpha r_{xy}^{\beta}, & \text{if } R_{\rm c} < r_{xy}\leq R_{\rm emit}\\
 0, & \text{if } r_{xy}> R_{\rm emit}
 \end{cases}   
 \label{eqn:sigma}
