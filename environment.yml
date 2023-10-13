@@ -4,6 +4,7 @@ dependencies:
   - conda-forge::python=3.10
   - conda-forge::astropy
   - conda-forge::scipy
+  - conda-forge::json
   - pip:
       - matplotlib
       - graphviz

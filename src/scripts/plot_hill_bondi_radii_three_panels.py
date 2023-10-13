@@ -156,7 +156,8 @@ gs00 = gridspec.GridSpecFromSubplotSpec(2, 1,
 ax=[plt.subplot((gs00[0,0])),plt.subplot(gs[0,1]),plt.subplot(gs[1,1])]
 
 #set font size
-plt.rc('text', usetex=True)
+plt.rc('text', usetex=False)
+#plt.rc('text', usetex=True)
 plt.rc('font', family='sans-serif')
 plt.rcParams.update({'font.size': 8, 'legend.fontsize':8,'xtick.labelsize':8, 'axes.titlesize':8, 'axes.labelsize':8,'ytick.labelsize':8})
 
