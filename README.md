@@ -1,12 +1,6 @@
-
-<a href="https://github.com/mkenworthy/ASASSN-21qj-collision/blob/main/src/static/ms_embargo.pdf"><img src="https://img.shields.io/badge/article-pdf-blue.svg?style=flat" alt="Read the article"/></a>
-<a href="https://github.com/showyourwork/showyourwork"><img src="https://img.shields.io/badge/created%20with-showyourwork!-ff0000" alt="created with showyourwork!"></a>
-
-<!-- 2023-10-11 tectonic is not building in the workflow on github - this is commented out and a static PDF linked until I fix this - MAK
 <a href="https://github.com/mkenworthy/ASASSN-21qj-collision/actions/workflows/build.yml"><img src="https://github.com/mkenworthy/ASASSN-21qj-collision/actions/workflows/build.yml/badge.svg?branch=main" alt="Article status"/></a>
 <a href="https://github.com/mkenworthy/ASASSN-21qj-collision/raw/main-pdf/arxiv.tar.gz"><img src="https://img.shields.io/badge/article-tarball-blue.svg?style=flat" alt="Article tarball"/></a>
-<a href="https://github.com/mkenworthy/ASASSN-21qj-collision/raw/main-pdf/ms.pdf"><img src="https://img.shields.io/badge/article-pdf-blue.svg?style=flat" alt="Read the article"/></a> -->
-
+<a href="https://github.com/mkenworthy/ASASSN-21qj-collision/raw/main-pdf/ms.pdf"><img src="https://img.shields.io/badge/article-pdf-blue.svg?style=flat" alt="Read the article"/></a>
 
 # A planetary collision afterglow and transit of the resultant dust cloud
 
