@@ -915,7 +915,7 @@ from asassn21qj import *
 
 import paths
 import matplotlib
-matplotlib.use('MacOSX')
+#matplotlib.use('MacOSX')
 print('running fit_2d_turning_points...')
 
 tas = ascii.read(paths.data / 'obs_ASASSN.ecsv')
