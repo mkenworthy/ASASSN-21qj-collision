@@ -19,6 +19,7 @@ jobs:
         uses: showyourwork/showyourwork-action@v1
         with:
           showyourwork-spec: git+https://github.com/showyourwork/showyourwork.git
+          article-cache-number: 1
         env:
           SANDBOX_TOKEN: ${{ secrets.SANDBOX_TOKEN }}
           OVERLEAF_EMAIL: ${{ secrets.OVERLEAF_EMAIL }}
