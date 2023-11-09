@@ -11,7 +11,7 @@ from matplotlib import pyplot as plt
 import paths
 
 import matplotlib
-matplotlib.use('MacOSX')
+##matplotlib.use('MacOSX')
 
 rose = "#CC6677"
 wine = '#882255'
